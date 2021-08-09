@@ -1,0 +1,20 @@
+{
+  "title": "Hosting",
+  "description": "Explain different options for hosting scientific work.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Options for hosting",
+        "text": "scenario14_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

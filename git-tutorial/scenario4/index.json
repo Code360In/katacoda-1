@@ -1,0 +1,20 @@
+{
+  "title": "Creating a Repository",
+  "description": "Create a local Git repository and describe the purpose of the .git directory.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Creating a Repository",
+        "text": "scenario4.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

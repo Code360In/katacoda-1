@@ -1,0 +1,20 @@
+{
+  "title": "Collaborating",
+  "description": "Use version control to collaborate with other people.",
+  "difficulty": "Intermediate",
+  "time": "25 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Adding changes in Owner repository by Collaborator",
+        "text": "scenario9_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

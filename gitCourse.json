@@ -4,7 +4,7 @@
   "icon": "fa-katacoda",
   "courses":[
     {
-      "course_id": "scenario1",
+      "course_id": "./git-tutorial/scenario1",
       "title": "Setup for Git.",
       "description": "Setup."
     },

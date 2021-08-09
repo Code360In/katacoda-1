@@ -4,7 +4,7 @@
   "icon": "fa-katacoda",
   "courses":[
     {
-      "course_id": "./git-tutorial/scenario1",
+      "course_id": "scenario1",
       "title": "Setup for Git.",
       "description": "Setup."
     },
@@ -12,6 +12,72 @@
       "course_id": "scenario2",
       "title": "Automated Version Control",
       "description": "Learn Automated Version Control."
+    },
+    {
+      "course_id": "scenario3",
+      "title": "Setting Up Git",
+      "description": "Configure git the first time it is used on a computer and uderstand the meaning of the --global configuration flag."
+    },
+    {
+      "course_id": "scenario4",
+      "title": "Create a local Git repository and describe the purpose of the .git directory.",
+      "description": "Setup"
+    },
+    {
+      "course_id": "scenario5",
+      "title": "Tracking Changes",
+      "description": "Go through the modify-add-commit cycle for one or more files."
+    },
+    {
+      "course_id": "scenario6",
+      "title": "Exploring History",
+      "description": "Identify old versions of files, review changes and recover old versions."
+    },
+    {
+      "course_id": "scenario7",
+      "title": "Ignoring Things",
+      "description": "Configure Git to ignore specific files and explain the reason."
+    },
+    {
+      "course_id": "scenario8",
+      "title": "Remotes in GitHub",
+      "description": "Conduct remote repositories."
+    },
+    {
+      "course_id": "scenario9",
+      "title": "Collaborating",
+      "description": "Use version control to collaborate with other people."
+    },
+    {
+      "course_id": "scenario10",
+      "title": "Conflicts",
+      "description": "Explain what conflicts are and when they can occur."
+    },
+    {
+      "course_id": "scenario11",
+      "title": "Open Science",
+      "description": "Explain how a version control system can be leveraged as an electronic lab notebook for computational work."
+    },
+    {
+      "course_id": "scenario12",
+      "title": "Licensing",
+      "description": "Explain why adding licensing information to a repository is important and choose a proper one."
+    },
+    {
+      "course_id": "scenario13",
+      "title": "Citation",
+      "description": "Make your work easy to cite."
+    },
+    {
+      "course_id": "scenario14",
+      "title": "Hosting",
+      "description": "Explain different options for hosting scientific work."
+    },
+    {
+      "course_id": "scenario15",
+      "title": "Supplemental: Using Git from RStudio",
+      "description": "Understand how to use Git from RStudio."
     }
   ]
 }
+

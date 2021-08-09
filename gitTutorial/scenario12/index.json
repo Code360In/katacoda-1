@@ -1,0 +1,20 @@
+{
+  "title": "Licensing",
+  "description": "Explain why adding licensing information to a repository is important and choose a proper one.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Theory for licensing",
+        "text": "scenario12_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

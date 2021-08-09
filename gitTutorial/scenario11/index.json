@@ -1,0 +1,20 @@
+{
+  "title": "Open Science",
+  "description": "Explain how a version control system can be leveraged as an electronic lab notebook for computational work.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Concept for Open Science",
+        "text": "scenario11_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

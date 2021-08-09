@@ -1,0 +1,20 @@
+{
+  "title": "Setting Up Git",
+  "description": "Configure git the first time it is used on a computer and uderstand the meaning of the --global configuration flag.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Setting Up Git",
+        "text": "scenario3.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

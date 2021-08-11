@@ -12,6 +12,18 @@
       {
         "title": "What is Shell Scripting?",
         "text": "scenario1_2.md"
+      },
+      {
+        "title": "The who command",
+        "text": "scenario1_3.md"
+      },
+      {
+        "title": "The w command",
+        "text": "scenario1_4.md"
+      },
+      {
+        "title": "What is Shell Scripting?",
+        "text": "scenario1_5.md"
       }
     ]
   },

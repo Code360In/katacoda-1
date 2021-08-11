@@ -8,6 +8,10 @@
       {
         "title": "Background",
         "text": "scenario1_1.md"
+      },
+      {
+        "title": "What is Shell Scripting?",
+        "text": "scenario1_2.md"
       }
     ]
   },

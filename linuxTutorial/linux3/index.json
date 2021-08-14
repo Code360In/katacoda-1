@@ -12,6 +12,10 @@
       {
         "title": "A sense of location",
         "text": "scenario3_2.md"
+      },
+      {
+        "title": "Relative and absolute paths",
+        "text": "scenario3_3.md"
       }
     ]
   },

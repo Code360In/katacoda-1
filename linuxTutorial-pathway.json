@@ -5,7 +5,7 @@
   "courses":[
     {
       "course_id": "scenario1",
-      "title": "Linux Overview.",
+      "title": "Linux Overview",
       "description": "Introduction to Linux command line."
     }
   ]

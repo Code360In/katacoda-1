@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Moving files",
+        "title": "Moving and amending files and folders",
         "text": "scenario5_1.md"
+      },
+      {
+        "title": "Deleting files and folders",
+        "text": "scenario5_2.md"
       }
     ]
   },

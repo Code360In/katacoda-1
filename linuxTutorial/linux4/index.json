@@ -6,8 +6,12 @@
   "details": {
     "steps": [
       {
-        "title": "Create a new directory",
+        "title": "Creating a new directory",
         "text": "scenario4_1.md"
+      },
+      {
+        "title": "Creating files using redirection",
+        "text": "scenario4_2.md"
       }
     ]
   },

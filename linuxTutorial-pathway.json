@@ -17,6 +17,11 @@
       "course_id": "linux3",
       "title": "Opening a terminal",
       "description": "Opening a terminal for Linux."
+    },
+    {
+      "course_id": "linux4",
+      "title": "Creating folders and files",
+      "description": "Use Linux to create folders and files."
     }
   ]
 }

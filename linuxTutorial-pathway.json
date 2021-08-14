@@ -22,6 +22,11 @@
       "course_id": "linux4",
       "title": "Creating folders and files",
       "description": "Use Linux command lines to create folders and files."
+    },
+    {
+      "course_id": "linux5",
+      "title": "Moving and manipulating files",
+      "description": "Use Linux command lines to move and maniputlate files."
     }
   ]
 }

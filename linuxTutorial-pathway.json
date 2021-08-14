@@ -12,6 +12,11 @@
       "course_id": "linux2",
       "title": "Linux - A brief history lesson",
       "description": "A brief history lesson for Linux."
+    },
+    {
+      "course_id": "linux3",
+      "title": "Opening a terminal",
+      "description": "Opening a terminal for Linux."
     }
   ]
 }

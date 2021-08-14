@@ -1,0 +1,20 @@
+{
+  "title": "Opening a terminal",
+  "description": "Opening a terminal for Linux.",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Opening a terminal",
+        "text": "scenario3_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

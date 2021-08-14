@@ -1,0 +1,20 @@
+{
+  "title": "Creating folders and files",
+  "description": "Use Linux to create folders and files",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Create a new directory",
+        "text": "scenario4_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

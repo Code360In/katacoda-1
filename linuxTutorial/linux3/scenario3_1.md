@@ -1,4 +1,5 @@
 On a Ubuntu 18.04 system you can find a launcher for the terminal by clicking on the <b> Activities </b> item at the top left of the screen, then typing the first few letters of “terminal”, “command”, “prompt” or “shell”. Yes, the developers have set up the launcher with all the most common synonyms, so you should have no problems finding it.
+
 ![Picture1](./assets/pic1.png)
 
 Other versions of Linux, or other flavours of Ubuntu, will usually have a terminal launcher located in the same place as your other application launchers. It might be hidden away in a submenu or you might have to search for it from within your launcher, but it’s likely to be there somewhere.

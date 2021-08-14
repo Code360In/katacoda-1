@@ -19,6 +19,7 @@ Back to our new directories. The command above will have created three new subdi
 > `ls`{{execute}}
 
 If you’ve followed the last few commands, your terminal should be looking something like this:
+
 ![Picture1](./assets/pic1.png)
 
 Notice that `mkdir` created all the folders in one directory. It didn’t create dir3 inside dir2 inside dir1, or any other nested structure. But sometimes it’s handy to be able to do exactly that, and `mkdir` does have a way:

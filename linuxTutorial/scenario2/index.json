@@ -1,0 +1,20 @@
+{
+  "title": "Linux - A brief history lesson",
+  "description": "A brief history lesson for Linux.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "History",
+        "text": "scenario2_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

@@ -10,8 +10,12 @@
         "text": "scenario8_1.md"
       },
       {
-        "title": "Creating a superuser",
+        "title": "Creating a superuser and log in",
         "text": "scenario8_2.md"
+      },
+      {
+        "title": "Installing Package",
+        "text": "scenario8_3.md"
       }
     ]
   },

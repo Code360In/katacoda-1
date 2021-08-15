@@ -1,13 +1,17 @@
 {
-  "title": "Moving and manipulating files",
-  "description": "Use Linux command lines to move and maniputlate files.",
+  "title": "Installing software from Linux command line",
+  "description": "Use Linux command lines install software.",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "15 minutes",
   "details": {
     "steps": [
       {
-        "title": "Moving and amending files and folders",
-        "text": "scenario5_1.md"
+        "title": "Overview - Package Management System",
+        "text": "scenario6_1.md"
+      },
+      {
+        "title": "Install Software",
+        "text": "scenario6_2.md"
       }
     ]
   },

@@ -1,0 +1,20 @@
+{
+  "title": "The command line and the superuser",
+  "description": "Looking into the files with Linux",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Introduction",
+        "text": "scenario8_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

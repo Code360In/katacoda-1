@@ -1,0 +1,20 @@
+{
+  "title": "Conclusion",
+  "description": "Conclusion for Linux command line",
+  "difficulty": "Beginner",
+  "time": "1 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Conclusion",
+        "text": "scenario10_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

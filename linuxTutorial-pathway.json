@@ -21,12 +21,37 @@
     {
       "course_id": "linux4",
       "title": "Creating folders and files",
-      "description": "Use Linux command lines to create folders and files."
+      "description": "Use Linux command line to create folders and files."
     },
     {
       "course_id": "linux5",
       "title": "Moving and manipulating files",
-      "description": "Use Linux command lines to move and maniputlate files."
+      "description": "Use Linux command line to move and maniputlate files."
+    },
+    {
+      "course_id": "linux6",
+      "title": "Installing software from Linux command line",
+      "description": "Use Linux command line to install software."
+    },
+    {
+      "course_id": "linux7",
+      "title": "A bit of plumbing",
+      "description": "Looking into the files with Linux."
+    },
+    {
+      "course_id": "linux8",
+      "title": "The command line and the superuser",
+      "description": "Looking into the files with Linux."
+    },
+    {
+      "course_id": "linux9",
+      "title": "Hidden files",
+      "description": "Prevent cluttering the view of your own files."
+    },
+    {
+      "course_id": "linux10",
+      "title": "Conclusion",
+      "description": "Conclusion for Linux command line."
     }
   ]
 }

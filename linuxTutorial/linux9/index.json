@@ -1,0 +1,20 @@
+{
+  "title": "Hidden files",
+  "description": "Prevent cluttering the view of your own files.",
+  "difficulty": "Beginner",
+  "time": "5 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Hiding files",
+        "text": "scenario9_1.md"
+      }
+    ]
+  },
+   "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

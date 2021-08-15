@@ -8,6 +8,10 @@
       {
         "title": "Introduction",
         "text": "scenario8_1.md"
+      },
+      {
+        "title": "Creating a superuser",
+        "text": "scenario8_2.md"
       }
     ]
   },

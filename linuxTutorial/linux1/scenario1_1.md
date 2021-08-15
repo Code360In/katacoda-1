@@ -18,4 +18,7 @@ This tutorial will teach you a little of the history of the command line, then w
 
 Every Linux system includes a command line of one sort or another. This tutorial includes some specfic steps for Ubuntu 18.04 but most of the content should work regardless of your Linux distribution.
 
+## Creative Commons
+This Linux tutorial is adapted and remixed with the contents from Canonical Ltd. (https://ubuntu.com/tutorials/command-line-for-beginners#1-overview) and Greg Pittman (https://opensource.com/article/18/8/how-install-software-linux-command-line).
+
 <br/>

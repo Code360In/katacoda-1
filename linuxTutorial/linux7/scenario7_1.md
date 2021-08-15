@@ -36,7 +36,21 @@ That line probably resulted in a count that’s pretty close to the total number
 It appears that very few, if any, of our duplicate lines are being removed. To understand why, we need to look at the documentation for the `uniq` command. Most command line tools come with a brief (and sometimes not-so-brief) instruction manual, accessed through the `man` (manual) command. The output is automatically piped through your pager, which will typically be `less`, so you can move back and forth through the output, then press **q** when you’re finished:
 > `man uniq`{{execute}}
 
+![Picture1](./assets/pic1.png)
 
+Because this type of documentation is accessed via the man command, you’ll hear it referred to as a “man page”, as in “check the man page for more details”. The format of man pages is often terse, think of them more as a quick overview of a command than a full tutorial. They’re often highly technical, but you can usually skip most of the content and just look for the details of the option or argument you’re using.
 
+The `uniq` man page is a typical example in that it starts with a brief one-line description of the command, moves on to a synopsis of how to use it, then has a detailed description of each option or parameter. But whilst man pages are invaluable, they can also be inpenetrable. They’re best used when you need a reminder of a particular switch or parameter, rather than as a general resource for learning how to use the command line. Nevertheless, the first line of the **DESCRIPTION** section for `man uniq` does answer the question as to why duplicate lines haven’t been removed: it only works on _adjacent_ matching lines.
 
+The question, then, is how to rearrange the lines in our file so that duplicate entries are on adjacent lines. If we were to sort the contents of the file alphabetically, that would do the trick. Unix offers a `sort` command to do exactly that. A quick check of `man sort` shows that we can pass a file name directly to the command, so let’s see what it does to our file:
+> `sort combined.txt | less`{{execute}}
 
+You should be able to see that the lines have been reordered, and it’s now suitable for piping straight into `uniq`. We can finally complete our task of counting the unique lines in the file:
+> `sort combined.txt | uniq | wc -l`{{execute}}
+
+As you can see, the ability to pipe data from one command to another, building up long chains to manipulate your data, is a powerful tool, as well as reducing the need for temporary files, and saving you a lot of typing. For this reason you’ll see it used quite often in command lines. A long chain of commands might look intimidating at first, but remember that you can break even the longest chain down into individual commands (and look at their man pages) to get a better understanding of what it’s doing.
+
+## Many manuals
+Most Linux command line tools include a man page. Try taking a brief look at the pages for some of the commands you’ve already encountered: `man ls`, `man cp`, `man rmdir` and so on. There’s even a man page for the man program itself, which is accessed using `man man`, of course.
+
+<br/>

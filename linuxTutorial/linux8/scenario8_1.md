@@ -14,7 +14,10 @@ By minimising the amount of time spent logged in as _root_, the use of `su` redu
 ## Don't use su
 If anyone asks you to use `su`, be wary. If you’re using Ubuntu the _root_ account is disabled by default, so `su` with no parameters won’t work. But it’s still not worth taking the risk, in case the account has been enabled without you realizing. If you are asked to use `su` with a username then (if you have the password) you will have access to all the files of that user, and could accidentally delete or modify them.
 
+When using `su` your entire terminal session is switched to the other user. Commands that don’t need root access, something as mundane as `pwd` or `ls`, would be run under the auspices of the superuser, increasing the risk of a bug in the program causing major problems. Worse still, if you lose track of which user you’re currently operating as, you might issue a command that is fairly benign when run as a user, but which could destroy the entire system if run as _root_.
 
+Better to disable the _root_ account entirely and then, instead of allowing long-lived terminal sessions with dangerous powers, require the user to specifically request superuser rights on a per-command basis. The key to this approach is a command called `sudo` (as in “switch user and do this command”).
 
+`sudo` is used to prefix a command that has to be run with superuser privileges. A configuration file is used to define which users can use `sudo`, and which commands they can run. When running a command like this, the user is prompted for _their own_ password, which is then cached for a period of time (defaulting to 15 minutes), so if they need to run multiple superuser-level commands they don’t keep getting continually asked to type it in.
 
-
+<br/>

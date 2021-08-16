@@ -41,11 +41,11 @@ You shouldn’t usually need to deal with hidden files, but occasionally instruc
 
 <br/>
 
-We’ve reached the end of this tutorial, and you should be back in your home directory now (use `pwd` to check, and `cd` to go there if you’re not). It’s only polite to leave your computer in the same state that we found it in, so as a final step, let’s remove the experimental area that we were using earlier, then double-check that it’s actually gone:
+We’ve reached the end of this tutorial, and you should be back in your home directory now (use `pwd` to check, and `cd` to go there if you’re not). It’s only polite to leave your computer in the same state that we found it in, so as a final step, remember to remove the experimental area that we were using earlier, then double-check that it’s actually gone:
 > ```
 > rm -r /tmp/tutorial
 > ls /tmp
-> ```{{execute}}
+> ```
 
 As a last step, let’s close the terminal. You can just close the window, but it’s better practice to log out of the shell. You can either use the `logout` command, or the <kbd> Ctrl-D </kbd> keyboard shortcut. If you plan to use the terminal a lot, memorising <kbd> Ctrl-Alt-T </kbd> to launch the terminal and <kbd> Ctrl-D </kbd> to close it will soon make it feel like a handy assistant that you can call on instantly, and dismiss just as easily.
 

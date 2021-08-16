@@ -34,8 +34,6 @@ Typing cd on its own is a quick shortcut to get back to your home directory:
 
 You can also use .. more than once if you have to move up through multiple levels of parent directories:
 > ```
-> cd index
-> pwd
 > cd ../..
 > pwd
 > ```{{execute}}

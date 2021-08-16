@@ -4,6 +4,7 @@ One important concept to understand is that the shell has a notion of a default 
 
 You can change the working directory using the `cd` command, an abbreviation for ‘change directory’. Try typing the following:
 > `cd /`{{execute}}
+> 
 > `Note that the directory separator is a forward slash (”/”), not the backslash that you may be used to from Windows or DOS systems`
 
 Now your working directory is “/”. If you’re coming from a Windows background you’re probably used to each drive having its own letter, with your main hard drive typically being “C:”. Unix-like systems don’t split up the drives like that. Instead they have a single unified file system, and individual drives can be attached (“mounted”) to whatever location in the file system makes most sense. The “/” directory, often referred to as the root directory, is the base of that unified file system. From there everything else branches out to form a tree of directories and subdirectories.

@@ -46,11 +46,17 @@ There’s one other handy shortcut which works as an absolute path. As you’ve 
 Now that odd text in the prompt might make a bit of sense. Have you noticed it changing as you move around the file system? On a Ubuntu system it shows your username, your computer’s network name and the current working directory. But if you’re somewhere inside your home directory, it will use “~” as an abbreviation. Let’s wander around the file system a little, and keep an eye on the prompt as you do so:
 
 > `cd`{{execute}}
+> 
 > `cd /`{{execute}}
+> 
 > `cd ~/Desktop`{{execute}}
+> 
 > `cd /etc`{{execute}}
+> 
 > `cd /var/log`{{execute}}
+> 
 > `cd ..`{{execute}}
+> 
 > `cd`{{execute}}
 
 You must be bored with just moving around the file system by now, but a good understanding of absolute and relative paths will be invaluable as we move on to create some new folders and files!

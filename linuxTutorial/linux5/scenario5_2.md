@@ -19,6 +19,7 @@ What happened there? Well, it turns out that rm does have one little safety net.
 
 However, if we would like to delete folders including files, we need to use `rm -r`:
 > ```
+> mkdir "folder 1"
 > mkdir "folder 1"/"folder 2"
 > ls "folder 1"
 > rm -r "folder 1"

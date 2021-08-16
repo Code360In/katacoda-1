@@ -2,7 +2,8 @@ Now that we’ve got a few files, let’s look at the sort of day-to-day tasks y
 
 Let’s begin by putting our _combined.txt_ file into our dir1 directory, using the `mv` (move) command:
 > ```
-> mkdir dir1 combined.txt
+> mkdir dir1 
+> nano combined.txt
 > mv combined.txt dir1
 > ```{{execute}}
 

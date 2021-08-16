@@ -25,7 +25,7 @@ If you run `ls` you’ll see that the `.hidden` directory is, as you might expec
 Notice that the shortcuts we used earlier, `.` and `..`, also appear as though they’re real directories.
 
 As for our recently installed `tree` command, that works in a similar way (except without an appearance by `.` and `..`):
-> `apk install tree`{{execute}}
+> `apt install tree`{{execute}}
 > ```
 > tree 
 > tree -a

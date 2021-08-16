@@ -35,7 +35,11 @@ Switch back to your home directory (`cd`) and try running `ls` without and then 
 
 You shouldn’t usually need to deal with hidden files, but occasionally instructions might require you to `cd` into `.config`, or edit some file whose name starts with a dot. At least now you’ll understand what’s happening, even when you can’t easily see the file in your graphical tools.
 
+<br/>
+
 ---------------------
+
+<br/>
 
 We’ve reached the end of this tutorial, and you should be back in your home directory now (use `pwd` to check, and `cd` to go there if you’re not). It’s only polite to leave your computer in the same state that we found it in, so as a final step, let’s remove the experimental area that we were using earlier, then double-check that it’s actually gone:
 > ```

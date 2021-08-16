@@ -1,10 +1,10 @@
 Before we conclude this tutorial it’s worth mentioning _hidden files_ (and folders). These are commonly used on Linux systems to store settings and configuration data, and are typically hidden simply so that they don’t clutter the view of your own files. There’s nothing special about a hidden file or folder, other than it’s name: simply starting a name with a dot (”.”) is enough to make it disappear.
-> `nano combined.txt`{{execute}}
 > ```
+> ls > combined.txt
 > ls
 > mv combined.txt .combined.txt
 > ls
-> ```
+> ```{{execute}}
 
 You can still work with the hidden file by making sure you include the dot when you specify its file name:
 > ```

@@ -54,7 +54,8 @@ That’s good, but perhaps the choice of backup name could be better. Why not re
 
 This also works on directories, giving us a way to sort out those difficult ones with spaces in the name that we created earlier. To avoid re-typing each command after the first, use the Up Arrow to pull up the previous command in the history. You can then edit the command before you run it by moving the cursor left and right with the arrow keys, and removing the character to the left with Backspace or the one the cursor is on with Delete. Finally, type the new character in place, and press Enter or Return to run the command once you’re finished. Make sure you change both appearances of the number in each of these lines.
 > ```
-> ls > "folder 1" "folder 2"
+> ls > "folder 1"
+> ls > "folder 2"
 > mv "folder 1" folder_1
 > mv "folder 2" folder_2
 > ls

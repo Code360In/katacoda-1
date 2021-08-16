@@ -13,7 +13,7 @@ There’s something a little different about that command. So far we’ve only s
 > ```
 > mkdir
 > cd /etc ~/Desktop
-> ```{{exeute}}
+> ```{{execute}}
 
 Back to our new directories. The command above will have created three new subdirectories inside our folder. Let’s take a look at them with the `ls` (list) command:
 > `ls`{{execute}}

@@ -10,13 +10,13 @@ Now your working directory is “/”. If you’re coming from a Windows backgro
 
 We will first create a folder in the terminal for the later directions:
 > ```
-> mkdir index
+> mkdir home
 > pwd
 > ```{{execute}}
 
 From the root directory, the following command will move you into the “home” directory (which is an immediate subdirectory of “/”):
 > ```
-> cd index
+> cd home
 > pwd
 > ```{{execute}}
 

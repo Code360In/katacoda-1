@@ -2,7 +2,7 @@
 Debian, Ubuntu, Mint, and other Debian-based distributions all use `.deb` files and the dpkg package management system. There are two ways to install apps via this system. You can use the apt application to install from a repository, or you can use the `dpkg` app to install apps from `.deb` files. Let's take a look at how to do both.
 
 Installing apps using `apt` is as easy as: 
-> `apt install app_name`{{copy}}
+> `apt install <app_name>`{{execute}}
 
 Uninstalling an app via apt is also super easy:
 > `apt remove app_name`{{copy}}

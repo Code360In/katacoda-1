@@ -39,7 +39,7 @@ There’s one other handy shortcut which works as an absolute path. As you’ve 
 > pwd
 > ```{{execute}}
 > ```
-> cd ~/home
+> cd ~/index
 > pwd
 > ```{{execute}}
 

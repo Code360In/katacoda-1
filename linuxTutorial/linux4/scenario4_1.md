@@ -61,6 +61,7 @@ You probably didn’t even need to type that one in to guess what would happen: 
 > mkdir "folder 4" "folder 5"
 > mkdir -p "folder 6"/"folder 7"
 > ls
+> ```{{execute}}
 
 Although the command line can be used to work with files and folders with spaces in their names, the need to escape them with quote marks or backslashes makes things a little more difficult. You can often tell a person who uses the command line a lot just from their file names: they’ll tend to stick to letters and numbers, and use underscores (“_”) or hyphens (”-”) instead of spaces.
 

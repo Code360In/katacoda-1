@@ -1,0 +1,23 @@
+{
+  "title": "Basic Commands",
+  "description": "Learn the basic commands in Linux.",
+  "difficulty": "Beginner",
+  "time": "5 miniutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Commands",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

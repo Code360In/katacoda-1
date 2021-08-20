@@ -1,0 +1,12 @@
+{
+  "title": "Scenario for Linux Command Line",
+  "description": "Learning Linux Command Line",
+  "icon": "fa-katacoda",
+  "courses":[
+    {
+      "course_id": "lesson1",
+      "title": "Linux Overview",
+      "description": "Introduction to Linux and its history."
+    }
+  ]
+}

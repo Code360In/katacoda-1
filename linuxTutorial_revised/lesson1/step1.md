@@ -2,4 +2,6 @@ The Linux command line is a text interface to your computer. Often it is reffere
 
 This tutorial will teach the basics of Linux, which are the following:
 - Brief history of Linux
-- Access the command 
+- Basic commands
+- Create folders & files
+- Move and manipulation files

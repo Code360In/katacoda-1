@@ -1,0 +1,23 @@
+{
+  "title": "Linux Overview",
+  "description": "Learn how to create your first Katacoda scenario",
+  "difficulty": "Beginner",
+  "time": "3 miniutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Overview",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

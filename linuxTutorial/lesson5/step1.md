@@ -16,6 +16,18 @@ Here, we will try the usage of the switches with **_text1.txt_** in the _hellowo
 > ```{{execute}}
 
 To check the number of files and folders in the home directory, we can have a shortcut to pipe the data. `ls ~` lists the contents of the home directory, while `wc -l` helps counting the lines. 
-> `ls ~ | wc -l`{{execute}}
+> ```
+> ls ~
+> ls ~ | wc -l
+> ```{{execute}}
 
+To check for the file and folder counts in a specific path, we can do like this (Two files in _helloworld_ directory):
+> ```
+> ls /root/helloworld
+> ls /root/helloworld | wc -l
+> ```{{execute}}
 
+To list the files and folders in a directory, the following command is needed:
+> `ls /root/helloworld | less`{{execute}}
+
+<br/>

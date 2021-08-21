@@ -1,6 +1,6 @@
 ## Moving files
 
-Let's begin by navigating to the **_helloworld_** directory.
+Let's begin by navigating to the **_helloworld_** directory (wait for 10 seconds for the environment to be loaded).
 > ```
 > cd /root/helloworld
 > ls

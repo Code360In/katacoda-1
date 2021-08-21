@@ -37,3 +37,15 @@ Examples:
 > cat text*
 > ```{{execute}}
 
+It can be more simplied as the file names are all starting with a **_t_**:
+> ```
+> cat t* > combined.txt
+> cat combined.txt
+> ```{{execute}}
+
+When you would like to **append** to the content of the files, we will do with ">>":
+> ```
+> echo "I've appended a line!" >> combined.txt
+> cat combined.txt
+> ```{{execute}}
+

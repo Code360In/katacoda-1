@@ -1,5 +1,5 @@
-mkdir /helloworld
-cd /helloworld
+mkdir helloworld
+cd helloworld
 
 mkdir dir1 dir2 dir3 
 mkdir -p dir4/dir5/dir6

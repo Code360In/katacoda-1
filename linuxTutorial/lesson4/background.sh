@@ -6,4 +6,4 @@ mkdir -p dir4/dir5/dir6
 echo "This is the index file." > index.txt
 echo "This is the first text file." > text1.txt
 echo "This is the second text file." > text2.txt
-mkdir "folder 1" "folder 2" "folder 3"
+mkdir folder1 folder2 folder3

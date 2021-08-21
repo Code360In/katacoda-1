@@ -17,6 +17,8 @@ Most of the examples in the previous steps use **_relative_** paths. That is, th
 
 You will see an error saying "No such file or directory". Changing directory by specifying the directory name, or using `..` will have different effects depending on where you start from. The path only makes sense **_relative_** to your working directory.
 
+<br/>
+
 In fact any path that starts with a forward slash is an absolute path. So, for the second execution, we should add a "/" to indicate the absolute path for the "etc" directory:
 > ```
 > cd 

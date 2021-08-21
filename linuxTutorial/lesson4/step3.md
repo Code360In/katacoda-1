@@ -20,4 +20,10 @@ As we used wildcard character "*" in the directory removal, the system has trigg
 > ls
 > ```{{execute}}
 
+<br/>
 
+Nevertheless, we can still see an error from the terminal, saying "failed to remove 'folder3': Directory not empty". It is because **_folder3_** contains **_folder4_**, so the system may want to safeguard the directories with files or folders will not be deleted that easily. If you are really sure to remove a whole directory and anything within it, we add the `-r` switch:
+> ```
+> rm -r folder3
+> ls
+> ```{{execute}}

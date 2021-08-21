@@ -37,6 +37,11 @@
       "course_id": "lesson7",
       "title": "User Account Control",
       "description": "Handing user accounts."
+    },
+    {
+      "course_id": "lesson8",
+      "title": "Hidden files",
+      "description": "Handing hidden files in the system."
     }
   ]
 }

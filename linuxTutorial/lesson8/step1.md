@@ -13,3 +13,15 @@ You can still work with the hidden file. Make sure you include the dot when you 
 > mv .hidden.txt .hidden
 > less .hidden/.hidden.txt
 > ```{{execute}}
+
+If you run `ls`, it is obvious that we can see nothing. You can still use `ls .hidden` to check the contents. Also, we can use the `-a` switch to `ls` to make it show everything in a directory, including the hidden files and folders:
+> `ls`{{execute}}
+> 
+> `ls -a`{{execute}}
+> 
+> `ls .hidden`{{execute}}
+> 
+> `ls -a .hidden`{{execute}}
+
+
+

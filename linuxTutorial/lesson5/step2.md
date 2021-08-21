@@ -21,3 +21,5 @@ Try:
 > cat exercise.txt
 > sort exercise.txt | uniq | less
 > ```{{execute}}
+
+<br/>

@@ -33,6 +33,7 @@ You can also use .. more than once if you have to move up through multiple level
 > ```{{execute}}
 
 Sample output of the above commands:
+
 ![Picture2](./assets/pic2.png)
 
 <br/>

@@ -14,7 +14,7 @@ Sample output:
 
 ![Picture 1](./assets/pic1.png)
 
-As we used wildcard character * in the directory removal, the system has triggered a safety net to prevent accidental delete. As a result, in order to remove a directory (**after serious consideration**), we can use `rmdir` command to do the job:
+As we used wildcard character in the directory removal, the system has triggered a safety net to prevent accidental delete. As a result, in order to remove a directory (**after serious consideration**), we can use `rmdir` command to do the job:
 > ```
 > rmdir folder*
 > ls

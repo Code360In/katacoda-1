@@ -18,4 +18,7 @@ Sample output:
 
 As you can see after we login the user account, the terminal will change to indicate the user (for example **peter@a835e595c935** in the sample output). All the commands executed during the login will only be saved in the private account. The public account cannot see the files.
 
+To return to the public account, type 'exit' to leave:
+> `exit`{{execute}}
+
 <br/>

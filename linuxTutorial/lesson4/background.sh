@@ -7,3 +7,4 @@ echo "This is the index file." > index.txt
 echo "This is the first text file." > text1.txt
 echo "This is the second text file." > text2.txt
 mkdir folder1 folder2 folder3
+mkdir -p folder4/folder5

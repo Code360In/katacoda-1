@@ -12,8 +12,7 @@ Then, we try to put our **_index.txt_** file into our **_dir1_** directory, usin
 > ls dir1
 > ```{{execute}}
 
-You can see the **_index.txt_** file is moved. Return to the working directory:
-> `cd ..`{{execute}}
+You can see the **_index.txt_** file is moved.
 
 Now suppose it turns out that file shouldn't be in **_dir1_** after all. We can use `mv index.txt ..` to move the file into the parent directory after we navigate to **_dir1_**, but here we can use a path shortcut to avoid changing directory as we only have 1 file in the directory:
 > `mv dir1/* .`{{execute}}

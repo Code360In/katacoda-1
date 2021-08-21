@@ -24,3 +24,14 @@ Sample output:
 ![Picture 1](./assets/pic1.png)
 
 <br/>
+
+You can try to look upon each package available by:
+> `apt list`{{execute}}
+
+Also, you can search the details of a particular package by:
+> `apt show <package name>`{{copy}}
+
+For example, we can find the details of **nginx** package:
+> `apt show nginx`{{execute}}
+
+<br/>

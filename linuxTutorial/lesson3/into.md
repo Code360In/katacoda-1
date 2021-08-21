@@ -4,7 +4,7 @@
 - Create folders in directory.
 - Navigate folders and files.
 - Create files using redirection.
-- 
+- Reminder in case sensitivity.
 
 <br/><br/>
 

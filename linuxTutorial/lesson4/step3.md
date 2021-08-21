@@ -7,7 +7,7 @@ At this stage, we will delete files:
 
 And we can try to delete directories:
 > ```
-> rm "folder *"
+> rm folder*
 > ```{{execute}}
 
 Sample output:

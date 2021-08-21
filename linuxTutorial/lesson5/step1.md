@@ -22,7 +22,7 @@ To check the number of files and folders in the home directory, we can have a sh
 > ls ~ | wc -l
 > ```{{execute}}
 
-To check for the file and folder counts in a specific path, we can do like this (Five files in _helloworld_ directory):
+To check for the file and folder counts in a specific path, we can do like this (Four files in _helloworld_ directory):
 > ```
 > ls /root/helloworld
 > ls /root/helloworld | wc -l

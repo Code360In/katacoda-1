@@ -18,7 +18,7 @@ To sort the contents of the files alphabetically, we can use the `sort` command:
 Exercise: How to sort a file with only unique lines?
 Try:
 > ```
-> cat exercise.txt
+> cat sort.txt
 > sort sort.txt | uniq | less
 > ```{{execute}}
 

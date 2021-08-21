@@ -9,6 +9,7 @@ To check the number of lines in a file, the `wc` (word count) command can tell u
 
 Here, we will try the usage of the switches with **_index.txt_** in the _helloworld_ directory. The file contains texts "Hello this is your first text file.":
 > ```
+> cd helloworld
 > wc -l index.txt
 > wc -m index.txt
 > wc -w index.txt

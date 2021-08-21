@@ -15,4 +15,7 @@ Here, we will try the usage of the switches with **_index.txt_** in the _hellowo
 > wc -w index.txt
 > ```{{execute}}
 
+To check the number of files and folders in the home directory, we can have a shortcut to pipe the data. `ls ~` lists the contents of the home directory, while `wc -l` helps counting the lines. 
+> `ls ~ | wc -l`{{execute}}
+
 

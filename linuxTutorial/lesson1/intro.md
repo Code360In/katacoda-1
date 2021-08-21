@@ -1,3 +1,5 @@
+<br/>
+
 ## Learning Objectives
 - Understand what is Linux.
 - Know the history of Linux.

@@ -17,6 +17,11 @@
       "course_id": "lesson3",
       "title": "Creating folders and files",
       "description": "Create folders and files usign Linux command lines."
+    },
+    {
+      "course_id": "lesson4",
+      "title": "Moving and manipulating files",
+      "description": "File control with Linux command lines."
     }
   ]
 }

@@ -27,3 +27,7 @@ Nevertheless, we can still see an error from the terminal, saying "failed to rem
 > rm -r folder3
 > ls
 > ```{{execute}}
+
+Remember: although `rm -r` is quick and convenient, it’s also dangerous. It’s safest to explicitly delete files to clear out a directory, then `cd ..` to the parent before using `rmdir` to remove it.
+
+<br/>

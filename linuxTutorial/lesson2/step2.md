@@ -15,7 +15,7 @@ From the root directory, the following command will move you into the “home”
 > ```{{execute}}
 
 To go up to the parent directory (in this case back to "/"), we will use the special syntax of two dots (`..`) when changing directory. Be cautious of the space between `cd` and `..`:
-> > ```
+> ```
 > cd ..
 > pwd
 > ```{{execute}}

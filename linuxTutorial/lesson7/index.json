@@ -1,0 +1,22 @@
+{
+  "title": "User Control",
+  "description": "Handing users.",
+  "difficulty": "Beginner",
+  "time": "10 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

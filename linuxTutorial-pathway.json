@@ -12,6 +12,11 @@
       "course_id": "lesson2",
       "title": "Basic Commands",
       "description": "Learn the basic commands in Linux."
+    },
+    {
+      "course_id": "lesson3",
+      "title": "Creating folders and files",
+      "description": "Create folders and files usign Linux command lines."
     }
   ]
 }

@@ -7,6 +7,11 @@
       "course_id": "lesson1",
       "title": "Linux Overview",
       "description": "Introduction to Linux and its history."
+    },
+    {
+      "course_id": "lesson2",
+      "title": "Basic Commands",
+      "description": "Learn the basic commands in Linux."
     }
   ]
 }

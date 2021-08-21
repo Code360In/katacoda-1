@@ -1,4 +1,4 @@
-## Moving and manipulating files
+## Moving files
 
 Let's begin by navigating to the **_helloworld_** directory.
 > ```
@@ -29,5 +29,12 @@ The `mv` command also lets us move more than one file at a time. Now we move **_
 > ls dir2
 > ```{{execute}}
 
-We got the files moved into **_dir2_**
+We got the files moved into **_dir2_**. But again, the file should be put in the path of **_dir4/dir5/dir6_**. Here is the amendment:
+> ```
+> mv dir2/index.txt dir4/dir5/dir6
+> ls dir2
+> ls dir4/dir5/dir6
+> ```{{execute}}
+
+Notice how the `mv` command functions. It helps to operate on files and folders in totally different locations. 
 

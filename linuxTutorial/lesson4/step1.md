@@ -2,7 +2,8 @@
 
 Let's begin by navigating to the **_helloworld_** directory.
 > ```
-> cd /helloworld
+> cd /
+> cd helloworld
 > ls
 > ```{{execute}}
 

@@ -1,0 +1,25 @@
+{
+  "title": "Hidden files",
+  "description": "Handling hidden files in the system.",
+  "difficulty": "Beginner",
+  "time": "10 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md"
+      },
+      {
+        "text": "step2.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

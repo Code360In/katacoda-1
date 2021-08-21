@@ -2,17 +2,19 @@
 
 Linux systems commonly stores settings and configuration data as hidden files so that they do not clutter the view of your own files. To create a hidden file, simply starting a name with a dot (".") is enough to make it disappear:
 > ```
+> cd helloworld
 > echo "Hello I am a hidden file." > .hidden.txt
 > ls
 > ```{{execute}}
 
 You can still work with the hidden file. Make sure you include the dot when you specify its file name:
-> ```
-> cat .hidden.txt
-> mkdir .hidden
-> mv .hidden.txt .hidden
-> less .hidden/.hidden.txt
-> ```{{execute}}
+> `cat .hidden.txt`{{execute}}
+> 
+> `mkdir .hidden`{{execute}}
+> 
+> `mv .hidden.txt .hidden`{{execute}}
+> 
+> `less .hidden/.hidden.txt`{{execute}}
 
 If you run `ls`, it is obvious that we can see nothing. You can still use `ls .hidden` to check the contents. Also, we can use the `-a` switch to `ls` to make it show everything in a directory, including the hidden files and folders:
 > `ls`{{execute}}

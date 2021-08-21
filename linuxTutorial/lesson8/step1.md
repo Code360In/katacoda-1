@@ -23,5 +23,8 @@ If you run `ls`, it is obvious that we can see nothing. You can still use `ls .h
 > 
 > `ls -a .hidden`{{execute}}
 
+<br/>
 
+You shouldn’t usually need to deal with hidden files, but occasionally instructions might require you to `cd` into `.config`, or edit some file whose name starts with a dot.
 
+<br/>

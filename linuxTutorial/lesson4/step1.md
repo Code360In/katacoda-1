@@ -38,3 +38,4 @@ We got the files moved into **_dir2_**. But again, the file should be put in the
 
 Notice how the `mv` command functions. It helps to operate on files and folders in totally different locations. 
 
+<br/>

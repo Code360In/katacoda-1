@@ -14,5 +14,10 @@ To handle the procedures in using a software package, we will use `apt` command 
 3. Run the nginx web server: `nginx`{{execute}}
 4. Check the default website using `curl`: `curl localhost:80`{{execute}}
 
+<br/>
+
+Sample output:
+
+![Picture 1](./assets/pic1.png)
 
 <br/>

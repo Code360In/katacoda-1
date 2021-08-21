@@ -14,3 +14,6 @@ To sort the contents of the files alphabetically, we can use the `sort` command:
 > `sort sort.txt | less`{{execute}}
 
 <br/>
+
+Exercise:
+- How to sort a file with only unique lines?

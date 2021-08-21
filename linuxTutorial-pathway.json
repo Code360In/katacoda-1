@@ -32,6 +32,11 @@
       "course_id": "lesson6",
       "title": "Installing Software Packages",
       "description": "Install packages with Linux command line."
+    },
+    {
+      "course_id": "lesson7",
+      "title": "User Account Control",
+      "description": "Handing user accounts."
     }
   ]
 }

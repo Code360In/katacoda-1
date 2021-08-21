@@ -7,4 +7,11 @@ To check the number of lines in a file, the `wc` (word count) command can tell u
 - `-m` switch: print the character counts
 - `-w` switch: print the word counts
 
-Here, we will try the usage of the switches with **_index.txt_**. The file contains texts "
+Here, we will try the usage of the switches with **_index.txt_**. The file contains texts "Hello this is your first text file.":
+> ```
+> wc -l index.txt
+> wc -m index.txt
+> wc -w index.txt
+> ```{{execute}}
+
+

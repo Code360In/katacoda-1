@@ -1,0 +1,22 @@
+{
+  "title": "Installing Packages",
+  "description": "Install packages with Linux command line.",
+  "difficulty": "Beginner",
+  "time": "15 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

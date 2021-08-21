@@ -21,7 +21,7 @@ Exercise: How to sort a file with only unique lines?
 Try:
 > ```
 > cat exercise.txt
-> sort exercise.txt | uniq | less
+> sort sort.txt | uniq | less
 > ```{{execute}}
 
 <br/>

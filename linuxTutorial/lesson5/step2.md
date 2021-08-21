@@ -10,4 +10,7 @@ Also, if you want to know the exact string of the unique line, we can do like:
 
 ## Sorting lines
 
-To sort the contents of the files alphabetically, we can do 
+To sort the contents of the files alphabetically, we can use the `sort` command:
+> `sort sort.txt | less`{{execute}}
+
+<br/>

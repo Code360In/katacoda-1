@@ -1,0 +1,22 @@
+{
+  "title": "Moving and manipulating files",
+  "description": "File control with Linux command lines.",
+  "difficulty": "Beginner",
+  "time": "30 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

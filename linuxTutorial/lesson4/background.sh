@@ -1,3 +1,4 @@
+cd /
 mkdir helloworld
 cd helloworld
 

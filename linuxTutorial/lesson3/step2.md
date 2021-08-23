@@ -14,7 +14,7 @@ Then, we can see the file content with the `cat` command:
 
 Sample output:
 
-![Picture 2](./asset/pic2.png)
+![Picture 2](./assets/pic2.png)
 
 Afterwards, we can also use a new command - `echo`. It is used to print its arguments out on the terminal, and combining it with a redirect, we can easily create small text files:
 > ```

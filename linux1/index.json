@@ -7,6 +7,9 @@
     "steps": [
       {
         "text": "lesson1.md"
+      },
+      {
+        "text": "lesson2.md"
       }
     ],
     "intro": {

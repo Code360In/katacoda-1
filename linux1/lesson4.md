@@ -7,7 +7,7 @@ Nano is a text editor to create, amend and update file content. To open `nano` w
 
 Let's take a look at the default nano screen.
 
-![Picture 4](./assets/pic5.png)
+![Picture 4](./assets/pic4.png)
 
 Several sections in the screen:
 1. Name and version number at the top

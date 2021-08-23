@@ -7,14 +7,14 @@ The system will inform you to set the password for the user account, and also th
 
 Sample output:
 
-![Picture 1](./assets/pic1.png)
+![Picture 4](./assets/pic4.png)
 
 Then, we will login as the user 'peter'. Remember the password is '**12345**'.
 > `login peter`{{execute}}
 
 Sample output:
 
-![Picture 2](./assets/pic2.png)
+![Picture 5](./assets/pic5.png)
 
 As you can see after we login the user account, the terminal will change to indicate the user (for example **peter@a835e595c935** in the sample output). All the commands executed during the login will only be saved in the private account. The public account cannot see the files.
 
@@ -41,7 +41,7 @@ Each line represents one user and has seven fields:
 
 Sample output:
 
-![Picture 3](./assets/pic3.png)
+![Picture 6](./assets/pic6.png)
 
 You can see in the sample output, all information is shown, but sometimes we only want the usernames on the system. As a result, we can extract from the list:
 > `cut -d: -f1 /etc/passwd`{{execute}}

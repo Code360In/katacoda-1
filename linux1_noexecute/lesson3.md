@@ -9,13 +9,14 @@ To handle the procedures in using a software package, we will use `apt` command 
 <br/>
 
 ##### Example:
-1. Update list of available packages: `apt update`{{execute}}
+1. Update list of available packages: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">apt update</span>
 
-2. Install the package (here we install nginx web server): `apt install nginx`{{execute}}
+2. Install the package (here we install nginx web server): <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">apt install nginx</span>
 
-3. Run the nginx web server: `nginx`{{execute}}
+3. Run the nginx web server: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">nginx</span>
 
-4. Check the default website using `curl`: `curl localhost:80`{{execute}}
+4. Check the default website using `curl`: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">curl localhost:80</span>
+
 
 <br/>
 
@@ -26,12 +27,12 @@ Sample output:
 <br/>
 
 You can try to look upon each package available by:
-> `apt list`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">apt list</span>
 
 Also, you can search the details of a particular package by:
 > `apt show <package name>`{{copy}}
 
 For example, we can find the details of **nginx** package:
-> `apt show nginx`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">apt show nginx</span>
 
 <br/>

@@ -1,1 +1,22 @@
-
+{
+  "title": "Linux Overview",
+  "description": "Introduction to Linux and its history.",
+  "difficulty": "Beginner",
+  "time": "3 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "lesson1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

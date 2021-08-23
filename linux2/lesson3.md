@@ -16,16 +16,10 @@ Here, we will try the usage of the switches with **_combined.txt_** in the _hell
 > wc -w combined.txt
 > ```{{execute}}
 
-To check the number of files and folders in the directory, we can have a shortcut to pipe the data. `ls` lists the contents of the directory, while `wc -l` helps counting the lines. 
-> ```
-> ls
-> ls | wc -l
-> ```{{execute}}
-
 To check for the file and folder counts in a specific path, we can do like this (Four files in _helloworld_ directory):
 > ```
-> ls /root/helloworld
-> ls /root/helloworld | wc -l
+> ls //helloworld
+> ls /helloworld | wc -l
 > ```{{execute}}
 
 To list the files and folders in a directory, the following command is needed:

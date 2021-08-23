@@ -22,8 +22,8 @@ You can see in the sample output, all information is shown, but sometimes we onl
 > `cut -d: -f1 /etc/passwd`{{execute}}
 
 There are two switches used in this execution:
-1. '-d': indicate a specific symbol to be field delimiter (In this case, ':' is the symbol)
-2. '-f': select the field that contains no delimiter character, and according to the selected field (In this case, the first field is selected.)
+1. `-d`: indicate a specific symbol to be field delimiter (In this case, ':' is the symbol)
+2. `-f`: select the field that contains no delimiter character, and according to the selected field (In this case, the first field is selected.)
 
 We can also search for existing Linux users by:
 > `getent passwd <username>`{{copy}}

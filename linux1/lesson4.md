@@ -25,6 +25,23 @@ The shortcuts are used with <kbd> ctrl </kbd> / <kbd> alt </kbd> and another let
 - <kbd> ctrl + R </kbd>: Insert the contents of another file into your current buffer
 - <kbd> alt + 6 </kbd>: Copy text
 - <kbd> ctrl + U </kbd>: Paste text
-- <kbd> ctrl + X </kbd>: Exit the editor
 - <kbd> alt + U </kbd>: Undo
 - <kbd> alt + E </kbd>: Redo
+- <kbd> ctrl + X </kbd>: Exit the editor (system will ask for saving)
+- <kbd> ctrl + Z </kbd>: Stop the editor
+
+We will now try these shortcuts. First, in the editor, we type `hello world!`{{copy}} to add content. 
+
+Then, we highlight "hello" (The highlight has to exclude the cursor). The sample output is as follow:
+
+![Picture 5](./assets/pic5.png)
+
+And we copy the text by clicking <kbd> alt + 6 </kbd> and place it to the end with <kbd> ctrl + U </kbd>. The sample out is as follow:
+
+![Picture 6](./assets/pic6.png)
+
+We can click <kbd> alt + U </kbd> to undo and <kbd> alt + E </kbd> to redo.
+
+To save the file, click <kbd> ctrl + X </kbd> and click <kbd> Y </kbd>. Press <kbd> ENTER </kbd> when you sure the content is saved in the correct file.
+
+<br/>

@@ -22,9 +22,9 @@ As we used wildcard character in the directory removal, the system has triggered
 
 <br/>
 
-Nevertheless, we can still see an error from the terminal, saying "failed to remove 'folder3': Directory not empty". It is because **_folder3_** contains **_folder4_**, so the system may want to safeguard that the directories with files or folders will not be deleted that easily. If you are really sure to remove a whole directory and anything within it, we add the `-r` switch:
+Nevertheless, we can still see an error from the terminal, saying "failed to remove 'folder3': Directory not empty". It is because **_'folder 3'_** contains **_'folder 4'_**, so the system may want to safeguard that the directories with files or folders will not be deleted that easily. If you are really sure to remove a whole directory and anything within it, we add the `-r` switch:
 > ```
-> rm -r folder3
+> rm -r 'folder 3'
 > ls
 > ```{{execute}}
 

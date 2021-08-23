@@ -44,11 +44,11 @@ When we create nested structure with `mkdir` command, the 'p' that we used is ca
 - modify how a command operates
 - allow a single command to behave in a variety of different ways
 
-To create a folder with a sapce in the name, we got serveral methods to do so:
+To create a folder with a space in the name, we got serveral methods to do so:
 > ```
 > mkdir "folder 1"
 > mkdir 'folder 2'
-> mkdir folder\ 3
+> mkdir -p folder\ 3/folder\ 4
 > ls
 > ```{{execute}}
 

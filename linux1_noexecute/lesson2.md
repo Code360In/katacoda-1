@@ -27,7 +27,7 @@ If you do any actions, the shell will assume the actions perform in the current 
 ## Change working directory using the `cd` command
 
 You can change the working directory using the cd command, an abbreviation for ‘change directory’. Try typing the following:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd /</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: '5'; padding-right: '5';">cd /</span>
 > 
 > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
 

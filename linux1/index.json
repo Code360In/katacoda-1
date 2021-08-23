@@ -1,8 +1,8 @@
 {
-  "title": "Linux Overview",
-  "description": "Introduction to Linux and its history.",
+  "title": "Linux (I)",
+  "description": "Linux tutorial Part I.",
   "difficulty": "Beginner",
-  "time": "3 miniutes",
+  "time": "45 miniutes",
   "details": {
     "steps": [
       {
@@ -10,6 +10,9 @@
       },
       {
         "text": "lesson2.md"
+      },
+      {
+        "text": "lesson3.md"
       }
     ],
     "intro": {

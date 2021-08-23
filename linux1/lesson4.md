@@ -30,7 +30,7 @@ The shortcuts are used with <kbd> ctrl </kbd> / <kbd> alt </kbd> and another let
 - <kbd> ctrl + X </kbd>: Exit the editor (system will ask for saving)
 - <kbd> ctrl + Z </kbd>: Stop the editor
 
-We will now try these shortcuts. First, in the editor, we type `hello world!`{{copy}} to add content. 
+We will now try these shortcuts. First, in the editor, we type `hello world`{{copy}} to add content. 
 
 Then, we highlight "hello" (The highlight has to exclude the cursor). The sample output is as follow:
 

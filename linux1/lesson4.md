@@ -20,6 +20,11 @@ Several sections in the screen:
 
 There are various shortcuts available in nano and the most common ones are listed at the bottom of the screen. 
 
-The shortcuts are used with <kbd> ctrl </kbd> and another letter. The common shortcuts function as:
+The shortcuts are used with <kbd> ctrl </kbd> / <kbd> alt </kbd> and another letter. The common shortcuts function as:
 - <kbd> ctrl + G </kbd>: View all the shortcut functions
-- <kbd> ctrl + G </kbd>: 
+- <kbd> ctrl + R </kbd>: Insert the contents of another file into your current buffer
+- <kbd> alt + 6 </kbd>: Copy text
+- <kbd> ctrl + U </kbd>: Paste text
+- <kbd> ctrl + X </kbd>: Exit the editor
+- <kbd> alt + U </kbd>: Undo
+- <kbd> alt + E </kbd>: Redo

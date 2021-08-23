@@ -19,7 +19,7 @@ Back to our new directories. The command above will have created three new subdi
 
 If you have followed the last few commands, you will get something like this:
 
-![Picture1](./assets/pic1.png)
+![Picture 1](./assets/pic1.png)
 
 Noted that `mkdir` created three folders in one directory. If we want to create nested structure, we can try the following:
 > ```

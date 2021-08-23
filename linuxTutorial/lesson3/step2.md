@@ -28,7 +28,7 @@ Just mentioned above, `cat` command can check the file contents, but `cat` can d
 
 Also, some shortcuts, or wildcard characters, can save typing if the files have similar names. 
 - A question mark ("?"): indicate any **_single character_** within the file name
-- An asterisk ("*"): indicate **_zero or more_** characters
+- An asterisk ("*"): indicate zero or more characters
 
 Examples:
 > ```

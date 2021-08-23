@@ -1,6 +1,6 @@
 ## Basics
 You can see the terminal is started on the right section. Let's run our first command. Make sure your keystrokes are on the terminal, then execute the following command:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px;">pwd</span>
 
 You should see a directory path printed out (probably something like `/root`).
 

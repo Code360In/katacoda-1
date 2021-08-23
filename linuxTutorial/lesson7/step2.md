@@ -2,7 +2,7 @@
 
 Details of local users can be found in the **/etc/passwd** file. 
 > ```
-> less etc/passwd
+> less /etc/passwd
 > ```{{execute}}
 
 Each line represents one user and has seven fields:

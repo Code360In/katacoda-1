@@ -39,6 +39,12 @@ Also, if you want to know the exact string of the unique line, we can do like:
 
 ## Sorting lines
 
+First, we create a file in the directory:
+> ```
+> echo -e "2\n1" > sort.txt
+> cat sort.txt
+> ```{{execute}}
+
 To sort the contents of the files alphabetically, we can use the `sort` command:
 > `sort sort.txt | less`{{execute}}
 

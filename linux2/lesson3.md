@@ -30,9 +30,10 @@ To list the files and folders in a directory, the following command is needed:
 ## Checking unique lines
 
 Now, we want to see unique lines in _unique.txt_. Unix has a command `uniq` that will only output unique lines in the file. By executing the following line, we can get 1 as the two lines in the files are duplicate:
-> `cat unique.txt`{{execute}}
-> 
+
 > `echo -e "1\n1" > unique.txt`{{execute}}
+>
+> `cat unique.txt`{{execute}}
 > 
 > `cat unique.txt | uniq | wc -l`{{execute}}
 

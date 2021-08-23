@@ -23,7 +23,7 @@ To check for the file and folder counts in a specific path, we can do like this 
 > ```{{execute}}
 
 To list the files and folders in a directory, the following command is needed:
-> `ls /root/helloworld | less`{{execute}}
+> `ls /helloworld | less`{{execute}}
 
 <br/>
 

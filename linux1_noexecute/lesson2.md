@@ -1,6 +1,6 @@
 ## Basics
 You can see the terminal is started on the right section. Let's run our first command. Make sure your keystrokes are on the terminal, then execute the following command:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 You should see a directory path printed out (probably something like `/root`).
 
@@ -27,32 +27,32 @@ If you do any actions, the shell will assume the actions perform in the current 
 ## Change working directory using the `cd` command
 
 You can change the working directory using the cd command, an abbreviation for ‘change directory’. Try typing the following:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: '5'; padding-right: '5';">cd /</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd /</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 
 Now your working directory is "/". The “/” directory, often referred to as the **_root_** directory, is the base of that unified file system. From there everything else branches out to form a tree of directories and subdirectories.
 
 From the root directory, the following command will move you into the “home” directory:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd home</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd home</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 To go up to the parent directory (in this case back to "/"), we will use the special syntax of two dots (`..`) when changing directory. Be cautious of the space between `cd` and `..`:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd ..</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd ..</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 A quick shortcut to get back to your home directory is:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 You can also use .. more than once if you have to move up through multiple levels of parent directories, which we will go straight to the "etc" directory:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd ../../etc</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd ../../etc</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 Sample output of the above commands:
 
@@ -63,42 +63,42 @@ Sample output of the above commands:
 ## Relative and absolute paths
 
 Most of the examples in the previous steps use **_relative_** paths. That is, the place you end up at depends on your currect working directory. Try the following to see the difference:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd /</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd /</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd etc</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd etc</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd etc</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd etc</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 You will see an error saying "No such file or directory". Changing directory by specifying the directory name, or using `..` will have different effects depending on where you start from. The path only makes sense **_relative_** to your working directory.
 
 <br/>
 
 In fact any path that starts with a forward slash is an absolute path. So, for the second execution, we should add a "/" to indicate the absolute path for the "etc" directory:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd /etc</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd /etc</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 
 Also, we can use `whoami` command to remind your home directory:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">whoami</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">whoami</span>
 
 At last, there is a handy shortcut which works as an abolute path. Using the tilde character (”~”) at the start of your path similarly means “starting from my home directory”.
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">cd ~</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">cd ~</span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">pwd</span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left:10px; padding-right:10px;">pwd</span>
 
 <br/>

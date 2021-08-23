@@ -9,7 +9,7 @@ To check the number of lines in a file, the `wc` (word count) command can tell u
 
 Here, we will try the usage of the switches with **_combined.txt_** in the _helloworld_ directory. :
 > ```
-> cd helloworld
+> cd /helloworld
 > cat combined.txt
 > wc -l combined.txt
 > wc -m combined.txt

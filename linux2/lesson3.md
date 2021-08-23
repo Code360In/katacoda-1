@@ -18,7 +18,7 @@ Here, we will try the usage of the switches with **_combined.txt_** in the _hell
 
 To check for the file and folder counts in a specific path, we can do like this (Four files in _helloworld_ directory):
 > ```
-> ls //helloworld
+> ls /helloworld
 > ls /helloworld | wc -l
 > ```{{execute}}
 

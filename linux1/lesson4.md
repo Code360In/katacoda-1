@@ -20,28 +20,31 @@ Several sections in the screen:
 
 There are various shortcuts available in nano and the most common ones are listed at the bottom of the screen. 
 
-The shortcuts are used with <kbd> ctrl </kbd> / <kbd> alt </kbd> and another letter. The common shortcuts function as:
-- <kbd> ctrl + G </kbd>: View all the shortcut functions
-- <kbd> ctrl + R </kbd>: Insert the contents of another file into your current buffer
-- <kbd> alt + 6 </kbd>: Copy text
-- <kbd> ctrl + U </kbd>: Paste text
-- <kbd> alt + U </kbd>: Undo
-- <kbd> alt + E </kbd>: Redo
-- <kbd> ctrl + X </kbd>: Exit the editor (system will ask for saving)
-- <kbd> ctrl + Z </kbd>: Stop the editor
+The shortcuts are used with <kbd> Ctrl </kbd> / <kbd> Alt </kbd> and another letter. The common shortcuts function as:
+- <kbd> Ctrl + G </kbd>: View all the shortcut functions
+- <kbd> Ctrl + R </kbd>: Insert the contents of another file into your current buffer
+- <kbd> Alt + 6 </kbd>: Copy text
+- <kbd> Ctrl + K </kbd>: Cut text
+- <kbd> Ctrl + U </kbd>: Paste text
+- <kbd> Alt + U </kbd>: Undo
+- <kbd> Alt + E </kbd>: Redo
+- <kbd> Ctrl + X </kbd>: Exit the editor (system will ask for saving)
+- <kbd> Ctrl + Z </kbd>: Stop the editor
 
 We will now try these shortcuts. First, in the editor, we type `hello world`{{copy}} to add content. 
 
-Then, we highlight "hello" (The highlight has to exclude the cursor). The sample output is as follow:
+To mark a text, press <kbd> SHIFT </kbd> continuously while selecting the text with the arrow keys. The sample output is as follow:
 
 ![Picture 5](./assets/pic5.png)
 
-And we copy the text by clicking <kbd> alt + 6 </kbd> and place it to the end with <kbd> ctrl + U </kbd>. The sample out is as follow:
+To copy the marked text press <kbd> Alt + 6 </kbd>.
+
+To paste the marked text, move the cursor to a suitable position and press <kbd> Ctrl + U </kbd>. The sample output is as follow:
 
 ![Picture 6](./assets/pic6.png)
 
-We can click <kbd> alt + U </kbd> to undo and <kbd> alt + E </kbd> to redo.
+We can click <kbd> Alt + U </kbd> to undo and <kbd> Alt + E </kbd> to redo.
 
-To save the file, click <kbd> ctrl + X </kbd> and click <kbd> Y </kbd>. Press <kbd> ENTER </kbd> when you sure the content is saved in the correct file.
+To save the file, click <kbd> Ctrl + X </kbd> and click <kbd> Y </kbd>. Press <kbd> ENTER </kbd> when you sure the content is saved in the correct file.
 
 <br/>

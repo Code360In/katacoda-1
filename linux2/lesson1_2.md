@@ -3,28 +3,21 @@
 Now, we will look into creating files. First, remind yourself what the `ls` command is currently showing:
 > `ls`{{execute}}
 
-Suppose we would like to create a text file with all the file names in **_/helloworld_** directory, so we use ">" symbol to write in the content:
-> ```
-> ls > output.txt
-> ls
-> ```{{execute}}
+Suppose we would like to create a text file. We can use a new command - `echo`. It is used to print its arguments out on the terminal, and combining it with a redirect. To write in the content in the text file, we can simply use ">" symbol:
+> `echo "This is the first text file." > text1.txt`{{execute}}
+> 
+> `echo "This is the second text file." > text2.txt`{{execute}}
+> 
+> `ls`{{execute}}
 
 Then, we can see the file content with the `cat` command:
-> `cat output.txt`{{execute}}
+> `cat text1.txt`{{execute}}
+> 
+> `cat text2.txt`{{execute}}
 
 Sample output:
 
 ![Picture 2](./assets/pic2.png)
-
-Afterwards, we can also use a new command - `echo`. It is used to print its arguments out on the terminal, and combining it with a redirect, we can easily create small text files:
-> ```
-> echo "This is the first text file." > text1.txt
-> echo "This is the second text file." > text2.txt
-> ls
-> ```{{execute}}
-
-Just mentioned above, `cat` command can check the file contents, but `cat` can do more than that. If you pass more than one filename to cat it will output each of them, one after the other, as a single block of text: 
-> `cat text1.txt text2.txt`{{execute}}
 
 Also, some shortcuts, or wildcard characters, can save typing if the files have similar names. 
 - A question mark ("?"): indicate any **_single character_** within the file name
@@ -33,6 +26,7 @@ Also, some shortcuts, or wildcard characters, can save typing if the files have 
 Examples:
 > ```
 > cat text1.txt text2.txt
+> 
 > cat text?.txt
 > cat text*
 > ```{{execute}}

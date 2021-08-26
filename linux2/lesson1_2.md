@@ -24,18 +24,11 @@ Also, some shortcuts, or wildcard characters, can save typing if the files have 
 - An asterisk ("*"): indicate zero or more characters
 
 Examples:
-> ```
-> cat text1.txt text2.txt
+> `cat text1.txt text2.txt`{{execute}}
 > 
-> cat text?.txt
-> cat text*
-> ```{{execute}}
-
-It can be more simplied as the file names are all starting with a **_t_**:
-> ```
-> cat t* > combined.txt
-> cat combined.txt
-> ```{{execute}}
+> `cat text?.txt`{{execute}}
+> 
+> `cat text*`{{execute}}
 
 When you would like to **append** to the content of the files, we will do with ">>":
 > ```

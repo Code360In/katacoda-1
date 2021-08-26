@@ -1,5 +1,0 @@
-<br/>
-
-## Learning Objectives
-
-<br/>

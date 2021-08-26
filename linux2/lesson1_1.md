@@ -35,6 +35,9 @@ And we can try:
 > ```
 > cd dir4
 > ls
+> ```{{execute}}
+
+> ```
 > cd dir5
 > ls
 > cd ../..
@@ -45,12 +48,14 @@ When we create nested structure with `mkdir` command, the 'p' that we used is ca
 - allow a single command to behave in a variety of different ways
 
 To create a folder with a space in the name, we got serveral methods to do so:
-> ```
-> mkdir "folder 1"
-> mkdir 'folder 2'
-> mkdir -p folder\ 3/folder\ 4
-> ls
-> ```{{execute}}
+> `mkdir "folder 1"`{{execute}}
+> 
+> `mkdir 'folder 2'`{{execute}}
+> 
+> `ls`{{execute}}
+
+Also, we can use '-p' to make parent directories as needed. The following command creates a parent directory **folder 3** while the child directory is **folder 4**.
+> mkdir -p 'folder 3'/'folder 4'{{execute}}
 
 At a good practice, we would use underscores ("_") or hyphens("-") instead of space.
 

@@ -3,7 +3,9 @@
 Now, we will look into creating files. First, remind yourself what the `ls` command is currently showing:
 > `ls`{{execute}}
 
-Suppose we would like to create a text file. We can use a new command - `echo`. It is used to print its arguments out on the terminal, and combining it with a redirect. To write in the content in the text file, we can simply use ">" symbol:
+Suppose we would like to create a text file. We can use a new command - `echo`. It is used to print its arguments out on the terminal, and combining it with a redirect. To write in the content in the text file, we can simply use ">" symbol.
+
+Here, we will create two text files **text1.txt** and **text2.txt**:
 > `echo "This is the first text file." > text1.txt`{{execute}}
 > 
 > `echo "This is the second text file." > text2.txt`{{execute}}

@@ -14,6 +14,7 @@ We can show the file content by using the `cat` command:
 
 We can also append a string to a file by using the `>>` operator:
 > `echo "This is the second line." >> text1.txt`{{execute}}
+> 
 > `cat text1.txt`{{execute}}
 
 <br/>

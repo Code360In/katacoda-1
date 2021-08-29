@@ -5,6 +5,7 @@ We may rename the file by using the `mv` command:
 
 Check that the file **text1.txt** is renamed to **text2.txt**:
 > `ls`{{execute}}
+> 
 > `cat text2.txt`{{execute}}
 
 We may move a file to a folder:

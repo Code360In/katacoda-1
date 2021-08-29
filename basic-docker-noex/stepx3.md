@@ -1,17 +1,10 @@
-
-
-
-
-
-
-
 # Connect to Nginx web server outside the Nginx container
 
 To connect to the web server from the host (outside the container), we need to know the IP address of the container.
 
-Execute the following command to obtain the IP address of the Nginx container.
+Execute the following command in Terminal 2 to obtain the IP address of the Nginx container.
 
-`docker inspect $(docker ps -lq) --format="{{json .NetworkSettings.Networks.bridge.IPAddress}}"`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker inspect $(docker ps -lq) --format="{{json .NetworkSettings.Networks.bridge.IPAddress}}" </span>
 
 You can then connect to the nginx container's IP address using the `curl command.
 
@@ -19,12 +12,10 @@ You can then connect to the web server using the IP address.
 
 `curl [nginx container's IP]`.
 
-
-
 # Further Exploration
 
 You can use the following command to inspect the details about Nginx image and containers.
-`docker inspect nginx`
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker inspect nginx </span>
 
 In the JSON output, search for the attribute "ContainerConfig.ExposedPorts" to examine the exposed port of the Nginx image.
 
@@ -66,34 +57,30 @@ You can also directly pikc out the relevant attribute in the JSON using the Go t
 
 Execute:
 
-` docker inspect nginx:1.21 --format="{{json .ContainerConfig.ExposedPorts}}"  |jq |jq`
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker inspect nginx:1.21 --format="{{json .ContainerConfig.ExposedPorts}}"  |jq |jq </span>
 
 To get the IP address of the running container, execute `docker inspect [Your container ID]`.
 
 Alternatively, you can execute the following command (`docker ps -lq` will return the ).
 
-`docker inspect $(docker ps -lq)`
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker inspect $(docker ps -lq) </span>
 
 Execute the command `docker ps -h` to understand the options -l and -q.
 - the -l option will return the latest created container 
 - the -q option  will just return the container ID.
 
-
-docker inspect $(docker ps -lq) --format="{{json .NetworkSettings.Networks.bridge.IPAddress}}"
-
-
-
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker inspect $(docker ps -lq) --format="{{json .NetworkSettings.Networks.bridge.IPAddress}}" </span>
 
 # Examining the Nginx configuration files 
 
 To view the Nginx configuration file, we can execute the following command in the Nginx container:
 
-`cat /etc/nginx/nginx.conf`
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> cat /etc/nginx/nginx.conf </span>
 
 
 In the host machine, execute the following command to view the configuration file `nginx.conf` in the container.
 
-`docker run nginx cat /etc/nginx/nginx.conf`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run nginx cat /etc/nginx/nginx.conf </span>
 
 Sample output (commented lines are removed for clarity): 
 
@@ -126,11 +113,11 @@ In the above example, the default `http` block has included all the `.conf` file
 
 Execute the following command to list the configuration files under `/etc/nginx/conf.d/`.
 
-`docker run nginx ls /etc/nginx/conf.d/default.conf`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run nginx ls /etc/nginx/conf.d/default.conf </span>
 
 View the content of `/etc/nginx/conf.d/default.conf`.
 
-`docker run nginx cat /etc/nginx/conf.d/default.conf`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run nginx cat /etc/nginx/conf.d/default.conf </span>
 
 Sample output (commented lines are removed for clarity):
 
@@ -157,17 +144,20 @@ With the default configuration,
 
 **Exercise:**
 
-Execute `cat /usr/share/nginx/html` in the nginx container to show the HTML source of the default webpage.
+Execute <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> cat /usr/share/nginx/html </span> in the nginx container to show the HTML source of the default webpage.
+
 
 
 # Stopping and removing the running containers
 
 Check the container ID of the various containers:
 
-`docker ps -a`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
 
 To stop and remove the running containers:
 
 ```
 docker container rm -f [container ID's prefix]
 ```
+
+<br/>

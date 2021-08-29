@@ -9,7 +9,7 @@ We can cut out the sections from each line of files and write the result to stan
 The ' ' space is a separator of each field, and we return the second field **'this'**:
 > `echo "Hello this is an example." | cut -d ' ' -f 2`{{execute}}
 
-The terminal will select the fifth byte. Noted that the `ü` character takes 2 bytes:
+The terminal will select the fifth byte. Note that the `ü` character takes 2 bytes:
 > `echo 'drüberspringen' | cut -b 5`{{execute}}
 
 <br/>

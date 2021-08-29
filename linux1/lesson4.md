@@ -1,9 +1,7 @@
 ## Using Nano
 
 Nano is a text editor to create, amend and update file content. To open `nano` with an empty buffer, we can just type `nano`{{copy}} in the terminal. You can also create a new buffer with the designated directory and filename. Let's make it to:
-> `ls`{{execute}}
-> 
-> `nano helloworld/greetings.txt`{{execute}}
+> `nano greetings.txt`{{execute}}
 
 Let's take a look at the default nano screen.
 
@@ -46,5 +44,10 @@ To paste the marked text, move the cursor to a suitable position and press <kbd>
 We can click <kbd> Alt + U </kbd> to undo and <kbd> Alt + E </kbd> to redo.
 
 To save the file, click <kbd> Ctrl + X </kbd> and click <kbd> Y </kbd>. Press <kbd> ENTER </kbd> when you sure the content is saved in the correct file.
+
+After you save the file, you can see the file is created in the directory:
+> `ls`{{execute}}
+> 
+> `cat greetings.txt`{{execute}}
 
 <br/>

@@ -3,17 +3,17 @@
 
 Start another Ubuntu container by running the Ubuntu docker image again:
 
-> `docker run --name c2 -it ubuntu bash`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run --name c2 -it ubuntu bash </span>
 
 Execute:
 
-> `figlet`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> figlet </span>
 
 Is the `figlet` program installed in the new container? Why?
 
 Exit the docker container.
 
-> `exit`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
 
 If we need something installed in our container, we should build a custom Docker image. We can
 
@@ -23,15 +23,15 @@ If we need something installed in our container, we should build a custom Docker
 
 In this exercise, we will focus on approach 1. Execute in the terminal (replace [container ID] with the ID of the container with figlet installed):
 
-> `docker commit c1 ubuntu-figlet`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker commit c1 ubuntu-figlet </span>
 
 Verify that a new image named  `ubuntu-figlet` is created.
 
-> `docker image ls`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker image ls </span>
 
 Execute the following  command to check if `figlet` is installed in the image.
 
-> `docker run ubuntu-figlet figlet Hello PolyU`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run ubuntu-figlet figlet Hello PolyU </span>
 
 Sample Output:
 
@@ -44,3 +44,4 @@ Sample Output:
                                      |___/       
 ```
 
+<br/>

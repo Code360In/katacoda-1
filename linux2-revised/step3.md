@@ -12,7 +12,7 @@ We may move a file to a folder:
 > `mv text2.txt dir1`{{execute}}
 
 Check the file **text2.txt** is no longer in the current folder:
-`ls`{{execute}}
+> `ls`{{execute}}
 
 The file should have been moved inside the **dir1** folder:
 > `ls dir1`{{execute}}

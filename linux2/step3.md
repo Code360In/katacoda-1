@@ -20,7 +20,7 @@ The file should have been moved inside the **dir1** folder:
 We may copy a file by using the `cp` command:
 > `cp dir1/text2.txt text3.txt`{{execute}}
 
-Show the content of **text3.txt**:
+Show the content and the location of **text3.txt**:
 > `cat text3.txt`{{execute}}
 > 
 > `ls`{{execute}}

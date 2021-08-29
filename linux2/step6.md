@@ -7,9 +7,11 @@ First we create a file with 3 lines, which two lines are the same:
 > echo "321" >> text3.txt
 > ```{{execute}}
 > 
->`ls`{{execute}}
+> `ls`{{execute}}
+>
+> `cat text3.txt`{{execute}}
 
-To send the output of one program (former part) to another program (latter part) for further processing, we use the _vertical bar character_ `|` as an operator. The `wc` command is to count the number of lines, words and characters in a file:
+To send the output of one program (former part) to another program (latter part) for further processing, we use the _vertical bar character_ `|` as an operator. The `wc` command is to count the number of lines, words in a line and characters in a file:
 > `cat text3.txt | wc`{{execute}}
 
 The `less` command is to read the content of a text file one page at a time:

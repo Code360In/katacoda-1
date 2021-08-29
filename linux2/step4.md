@@ -12,7 +12,7 @@ Verify that the directory is removed:
 _Important_: You cannot remove a directory if theire are files in it:
 > `rmdir dir1`{{execute}}
 
-To recursively removee the file and directory, use the `-r` option of the `rm` command:
+To recursively remove the file and directory, use the `-r` option of the `rm` command:
 > `rm -r dir1`{{execute}}
 
 Check that **dir1** has been removed:

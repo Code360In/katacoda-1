@@ -5,8 +5,7 @@ Docker is an open platform for developing, packaging, shipping, and running appl
 # Running your first container - Hello World 
 
 Test your Docker installation by running the following in the command prompt. Execute:
-
-> `docker run hello-world`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run hello-world </span>
 
 Here's what happens when you execute the above command:
 1. The Docker engine will try to find an image named "hello-world". 
@@ -19,19 +18,20 @@ You can use the `docker image ls` command to see a list of all images on your ma
 
 Execute: 
 
-> `docker images ls`{{execute}}. 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker images ls </span>
 
 Check that the hello-world image is shown.
 
 You can check the status of your containers by running
-
-> `docker ps`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps </span>
 
 You will NOT see any container as the container has exited (stopped) after printing the message. 
 To list all running and exited containers, run:
 
-> `docker ps -a`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
 
 **Exercises**: 
 * Execute the following command to understand more about the `docker ps` command.
-> `docker ps --help`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps --help </span>
+
+<br/>

@@ -1,0 +1,38 @@
+{
+  "title": "Linux (II)",
+  "description": "Linux tutorial Part II.",
+  "difficulty": "Beginner",
+  "time": "20 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "lesson1_1.md"
+      },
+      {
+        "text": "lesson1_2.md"
+      },
+      {
+        "text": "lesson2_1.md"
+      },
+      {
+        "text": "lesson2_2.md"
+      },
+      {
+        "text": "lesson3.md"
+      },
+      {
+        "text": "lesson4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "background.sh"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

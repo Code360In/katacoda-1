@@ -32,3 +32,4 @@ The name and ID of the various containers that you have launched and stopped (ex
 *Exercise*: 
 Remove the busybox container you have created by using its container ID.
 
+<br/>

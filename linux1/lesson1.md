@@ -6,10 +6,10 @@ This tutorial will teach the basics of Linux, which are the following:
 - Brief history of Linux
 - Basic commands
 - Create folders & files
-- Move and manipulation files
+- Move and manipulating files
 - File information retrival
 - Install software packages
-- User Account Control
+- Plumbing
 
 <br/>
 
@@ -19,6 +19,6 @@ During the formative years of the computer industry, one of the early operating 
 
 When logged into a Unix mainframe via a terminal users still had to manage the sort of file management tasks that you might now perform with a mouse and a couple of windows. Whether creating files, renaming them, putting them into subdirectories or moving them around on disk, users in the 70s could do everything entirely with a textual interface.
 
-Each of these tasks required its command: one to change directories (cd), another to list their contents (ls), a third to rename or move files (mv), and so on. In the following parts, we will learn more shell commands to manage.
+Each of these tasks required its command: one to change directories (`cd`), another to list their contents (`ls`), a third to rename or move files (`mv`), and so on. In the following parts, we will learn more shell commands to manage.
 
 <br/>

@@ -6,27 +6,29 @@
   "details": {
     "steps": [
       {
-        "text": "lesson1_1.md"
+        "text": "step1.md"
       },
       {
-        "text": "lesson1_2.md"
+        "text": "step2.md"
       },
       {
-        "text": "lesson2_1.md"
+        "text": "step3.md"
       },
       {
-        "text": "lesson2_2.md"
+        "text": "step4.md"
       },
       {
-        "text": "lesson3.md"
+        "text": "step5.md"
       },
       {
-        "text": "lesson4.md"
+        "text": "step6.md"
+      },
+      {
+        "text": "step7.md"
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "courseData": "background.sh"
+      "text": "intro.md"
     }
   },
   "environment": {

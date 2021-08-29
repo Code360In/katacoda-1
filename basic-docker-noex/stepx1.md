@@ -2,17 +2,17 @@
 
 Execute the following command to pull the `python:latest` docker image:
 
-`docker pull python:latest`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker pull python:latest </span>
 
 Execute the following command to check the Python version in the container.
 
-`docker run python:latest python --version`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run python:latest python --version </span>
 
 What is the Python version?
 
 Execute a Python statement with the Python Command-line tool:
 
-`docker run python:latest python -c "print(1+3*5)"`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run python:latest python -c "print(1+3*5)" </span>
 
 Also, pull the following docker images for python 3.9.6
 - python:slim
@@ -21,7 +21,7 @@ Also, pull the following docker images for python 3.9.6
 
 View the size of the pulled Python Docker images.
 
-`docker image ls python*`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker image ls python* </span>
 
 Which image has the smallest size?
 
@@ -30,3 +30,4 @@ Visit https://hub.docker.com/_/python to understand the difference between the i
 
 You can also visit https://github.com/docker-library/python to get the Dockerfiles for the images.
 
+<br/>

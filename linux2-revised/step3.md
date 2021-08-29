@@ -22,5 +22,7 @@ We may copy a file by using the `cp` command:
 
 Show the content of **text3.txt**:
 > `cat text3.txt`{{execute}}
+> 
+> `ls`{{execute}}
 
 <br/>

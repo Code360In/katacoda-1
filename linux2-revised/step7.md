@@ -10,6 +10,6 @@ The ' ' space is a separator of each field, and we return the second field **'th
 > `echo "Hello this is an example." | cut -d ' ' -f 2`{{execute}}
 
 The terminal will select the fifth byte. Noted that the `ü` character takes 2 bytes:
-> `echo 'drüberspringen' | cut -b 5**`{{execute}}
+> `echo 'drüberspringen' | cut -b 5`{{execute}}
 
 <br/>

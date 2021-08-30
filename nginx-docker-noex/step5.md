@@ -2,7 +2,7 @@
 
 In terminal T2, execute the following command in the docker host to access the `/test` page (which does not exist):
 
-> `curl localhost:20080/test`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> curl localhost:20080/test </span>
 
 What happens if you access a non-existing page?
 
@@ -22,3 +22,5 @@ The sample access  log above shows there are two HTTP GET requests being sent to
 - The first line shows the HTTP 200 OK success status response code indicates that the request to the root path `/` has succeeded. 
 - The second line shows an error message when the user request the non-existing endpoint `/test`.
 - The third line shows the `HTTP 404 NOT FOUND` status response code when  the non-existing endpoint `/test` is accessed.
+
+<br/>

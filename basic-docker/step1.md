@@ -19,7 +19,7 @@ You can use the `docker image ls` command to see a list of all images on your ma
 
 Execute: 
 
-> `docker images ls`{{execute}}. 
+> `docker image ls`{{execute}}. 
 
 Check that the hello-world image is shown.
 

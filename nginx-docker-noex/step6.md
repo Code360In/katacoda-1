@@ -24,7 +24,7 @@ This is my first website
 
 You can either use your favourite editor (e.g. nano, vi) or create the file using the following command.
 
-> `echo 'This is my first website' > index.html`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> echo 'This is my first website' > index.html </span>
 
 # Copy files to/from Docker container
 

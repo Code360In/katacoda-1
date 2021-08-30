@@ -12,7 +12,7 @@ Execute the following command to show the container ID of the latest created con
 
 > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -lq </span>
 
-You may execute the command `docker ps -h`{{execute T2}} to know more about the options `-l` and `-q` for `docker ps`.
+You may execute the command <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -h </span> to know more about the options `-l` and `-q` for `docker ps`.
 - the `-l` option will show the latest created container 
 - the `-q` option will just return the container ID
 

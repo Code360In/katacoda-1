@@ -13,9 +13,9 @@ To handle the procedures in using a software package, we will use `apt` command 
 
 2. Install the package (here we install nginx web server). Enter <kbd> Y </kbd> when asked: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> apt install nginx </span>
 
-3. Run the nginx web server: > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> nginx </span>
+3. Run the nginx web server: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> nginx </span>
 
-4. Check the default website using `curl`: > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> curl localhost:80 </span>
+4. Check the default website using `curl`: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> curl localhost:80 </span>
 
 <br/>
 

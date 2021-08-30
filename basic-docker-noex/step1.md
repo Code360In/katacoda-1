@@ -18,7 +18,7 @@ You can use the `docker image ls` command to see a list of all images on your ma
 
 Execute: 
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker images ls </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker image ls </span>
 
 Check that the hello-world image is shown.
 

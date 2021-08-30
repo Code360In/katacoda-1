@@ -8,18 +8,19 @@ Start three instances of nginx docker containers.
 
 Use the -d option runs the container in detached mode (the server will run in background). Execute:
 
-> `docker run -d -p 20080:80 --name ws1 nginx`{{execute}}
-
-> `docker run -d -p 20081:80 --name ws2 nginx`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -d -p 20080:80 --name ws1 nginx </span>
+> 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -d -p 20080:80 --name ws2 nginx </span>
 
 
 Check that there are TWO running Nginx containers. Execute:
 
-> `docker container ls`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container ls </span>
+> 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker exec ws1 /bin/bash -c "echo 'This is server 1' > /usr/share/nginx/html/index.html" </span>
+> 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker exec ws2 /bin/bash -c "echo 'This is server 2' > /usr/share/nginx/html/index.html" </span>
 
-> `docker exec ws1 /bin/bash -c "echo 'This is server 1' > /usr/share/nginx/html/index.html"`{{execute}}
-
-> `docker exec ws2 /bin/bash -c "echo 'This is server 2' > /usr/share/nginx/html/index.html"`{{execute}}
 
 Similarly, create the third web instance of the webserver  which outputs "This is server 3". Map the container port "80" to host port "20082".
 
@@ -34,9 +35,8 @@ https://[[HOST_SUBDOMAIN]]-20082-[[KATACODA_HOST]].environments.katacoda.com/
 
 Execute the following command and input your student ID and name.
 
-> `input_name`{{execute}}
-
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> input_name </span>
 
 Click **Continue** below to check your script for correctness.
 
-
+<br/>

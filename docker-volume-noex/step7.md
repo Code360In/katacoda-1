@@ -15,8 +15,9 @@ END
 
 Verify that the website served by the Nginx container at localhost:8080 is updated.
 
-> `curl localhost:8080`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> curl localhost:8080 </span>
 
 **Question:** 
 What is the output of the curl command?
 
+<br/>

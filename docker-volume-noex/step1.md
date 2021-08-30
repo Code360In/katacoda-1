@@ -2,38 +2,38 @@
 
 First,  run an interactive `sh` shell within an Alpine Linux container named c1. Execute:
 
-> `docker run --name c1 -it alpine sh`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run --name c1 -it alpine sh </span>
 
 Inside the container, we will create a file `hello.txt` in the folder. Execute:
 
-> `echo "Hello World!"> hello.txt`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> echo "Hello World!"> hello.txt </span>
 
 Check that the file `hello.txt` is created. Execute:
 
-> `ls -l`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls -l </span>
 
 You may show the content of the file using the `cat` command. Execute:
 
-> `cat hello.txt`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> cat hello.txt </span>
 
 Exit the container. Execute:
 
-> `exit`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
 
 
 Now, check the state of the `c1 container`.  Execute:
 
-> `docker ps -a`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
 
 The container has been stopped but the container's filesystem still exists in the host.
 
 We will now check how the read-write layers in the container can be accessed from the host. To get the location of the container's layers, we can use the `inspect` command and scroll the output until you find the **GraphDriver** attribute.
 
-> `docker container inspect c1 `{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container inspect c1 </span>
 
 Alternatively, we can also use the Go template notation and to get the content of the **GraphDriver** keys right away.
 
-> `docker container inspect -f "{{json .GraphDriver}}" c1 | jq`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container inspect -f "{{json .GraphDriver}}" c1 | jq </span>
 
 
 You should get an output similar to the following  (you will get different ID for the directory paths)
@@ -63,3 +63,5 @@ Inside our docker host,  we can inspect the folder path  specified in **LowerDir
 `ls [The path specified in the UpperDir attribute]`
 
 Can you  find our `hello.txt` in the directories?
+
+<br/>

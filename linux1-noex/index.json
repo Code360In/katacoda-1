@@ -1,0 +1,31 @@
+{
+  "title": "Linux (I)",
+  "description": "Linux tutorial Part I.",
+  "difficulty": "Beginner",
+  "time": "20 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "lesson1.md"
+      },
+      {
+        "text": "lesson2.md"
+      },
+      {
+        "text": "lesson3.md"
+      },
+      {
+        "text": "lesson4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

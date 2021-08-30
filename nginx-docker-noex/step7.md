@@ -10,7 +10,7 @@ Use the -d option runs the container in detached mode (the server will run in ba
 
 > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -d -p 20080:80 --name ws1 nginx </span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -d -p 20080:80 --name ws2 nginx </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -d -p 20081:80 --name ws2 nginx </span>
 
 
 Check that there are TWO running Nginx containers. Execute:

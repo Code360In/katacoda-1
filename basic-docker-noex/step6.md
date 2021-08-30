@@ -4,7 +4,7 @@ FIGlet is a simple command-line utility for creating ASCII text banners or large
 
 Execute figlet in our Ubuntu container.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> figlet hello </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> figlet hello </span>
 
 It will generate an error as the program is not installed in the Ubuntu docker image.
 
@@ -12,15 +12,15 @@ It will generate an error as the program is not installed in the Ubuntu docker i
 
 First, updates the list of available packages and their versions.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> apt update </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> apt update </span>
 
 After that, install the `figlet` program.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> apt install figlet </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> apt install figlet </span>
 
 Execute the following command again.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> figlet hello </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> figlet hello </span>
 
  Sample output:
 
@@ -35,11 +35,11 @@ Execute the following command again.
 
 Exit the docker container.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> exit </span>
 
 Check the container status by executing:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker ps -a </span>
 
 What is the status of the two containers that we have executed?
 

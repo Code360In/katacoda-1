@@ -14,7 +14,7 @@ First we create a file with 3 lines, which two lines are the same:
 To send the output of one program (former part) to another program (latter part) for further processing, we use the _vertical bar character_ `|` as an operator. The `wc` command is to count the number of lines, words in a line and characters in a file:
 > `cat text3.txt | wc`{{execute}}
 
-The `less` command is to read the content of a text file one page at a time. We will load a Bash shell script (**.bashrc**) that Bash runs whenever it is started interactively:
+The `less` command is to read the content of a text file one page at a time. We will load a Bash shell script (**.bashrc**), which is a startup script for running a Linux terminal:
 > `cat .bashrc | less`{{execute}}
 
 The `uniq` command is to filter out the repeated lines in a file:

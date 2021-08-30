@@ -31,7 +31,7 @@ Verify that the MySQL Server is started up successfully.
 
 **Exercises**: 
 * Execute the following command to understand more about the `docker run` command.
-> `docker run --help`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run --help </span>
 *  Visit https://hub.docker.com/_/mysql for details about the parameters in the mysql docker image
 
 <br/>

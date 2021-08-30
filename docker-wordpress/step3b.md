@@ -17,7 +17,7 @@ To show the databases, execute:
 
 Change to the `wordpress` database. Execute:
 
-> `use wordpress`{{execute}}
+> `use wordpress;`{{execute}}
 
 To list all the tables, execute:
 

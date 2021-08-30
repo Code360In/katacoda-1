@@ -2,8 +2,10 @@
 
 Remove the `www` container.
 
-> `docker rm -f www`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker rm -f www </span>
 
 Check if the data stored in the volume still exist.
 
-> `ls /var/lib/docker/volumes/web_folder/_data`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls /var/lib/docker/volumes/web_folder/_data </span>
+
+<br/>

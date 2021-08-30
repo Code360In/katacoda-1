@@ -12,7 +12,4 @@ Type some commands, e.g.<br/>
 >
 > `whoami`{{execute}} 
 
-Exit the bash shell in the wordpress container:
-> `exit`{{execute}} 
-
 <br/>

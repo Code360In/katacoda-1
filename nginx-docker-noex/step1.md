@@ -6,3 +6,4 @@ Open two terminals (T1 and T2) in the host machine to complete the following exe
 
 ![Open new terminal in Katacoda](terminal.jpg)
  
+<br/>

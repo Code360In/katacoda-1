@@ -40,7 +40,7 @@ Wait for the file to be saved.
 
 Execute the following command to start up the containers.
 
-> `docker-compose up`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker-compose up </span>
 
 
 After the containers have been started up and initialized, you may access your WordPress application at `localhost:20080`.
@@ -54,4 +54,4 @@ https://[[HOST_SUBDOMAIN]]-20080-[[KATACODA_HOST]].environments.katacoda.com/
 
 Press `Ctrl+C` in the terminal running docker-compose to stop your containers.
 
-
+<br/>

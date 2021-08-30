@@ -7,7 +7,7 @@ view the container log. For instance, to check the
 
 For instance, to check the log of the container named "ws1".
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker logs ws1 </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker logs ws1 </span>
 
 **Exercise:**  
 

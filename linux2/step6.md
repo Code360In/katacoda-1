@@ -1,16 +1,5 @@
 ## Plumbing files
 
-First we create a file with 3 lines, which two lines are the same:
-> ```
-> echo "123" >> text3.txt
-> echo "123" >> text3.txt
-> echo "321" >> text3.txt
-> ```{{execute}}
-> 
-> `ls`{{execute}}
->
-> `cat text3.txt`{{execute}}
-
 To send the output of one program (former part) to another program (latter part) for further processing, we use the _vertical bar character_ `|` as an operator. The `wc` command is to count the number of lines, words in a line and characters in a file:
 > `cat text3.txt | wc`{{execute}}
 

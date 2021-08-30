@@ -2,7 +2,7 @@
 
 From the host machine,  modify the `index.html` as follows.
 
-```
+<span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;">
 cat<<END >/var/lib/docker/volumes/web_folder/_data/index.html
 <html>
 	<body>
@@ -10,7 +10,7 @@ cat<<END >/var/lib/docker/volumes/web_folder/_data/index.html
 	</body>
 </html>
 END
-```{{execute}}
+</span>
 
 
 Verify that the website served by the Nginx container at localhost:8080 is updated.

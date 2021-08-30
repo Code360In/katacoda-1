@@ -1,8 +1,8 @@
 # Connect to Nginx web server (Terminal T2)
 
-Open another terminal in the host (T2). Execute:
+Open another terminal in the host (T2). Execute in T2:
 
-> `docker ps`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps </span>
 
 Check that the nginx container is running. 
 Under the `port` column, `80/tcp` will be shown. 
@@ -10,7 +10,7 @@ This indicates the Nginx container is exposing the 80 (the Nginx will listen for
 
 Execute the following command to show the container ID of the latest created container:
 
-> `docker ps -lq`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -lq </span>
 
 You may execute the command `docker ps -h`{{execute T2}} to know more about the options `-l` and `-q` for `docker ps`.
 - the `-l` option will show the latest created container 
@@ -20,11 +20,11 @@ You may launch a Bash shell to the running Nginx container and access the web se
 
 You can execute the following command, where `$(docker ps -lq) ` will substitute the container ID of the latest created container.
 
-> `docker exec -it $(docker ps -lq) bash`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker exec -it $(docker ps -lq) bash </span>
 
 Inside the nginx container, execute the following command to connect to localhost at port 80 using the `curl` command (The port 80 is the default port for web servers and is optional.).
 
-> `curl localhost:80`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> curl localhost:80 </span>
 
 
 Sample output:
@@ -58,8 +58,10 @@ Commercial support is available at
 </html>
 ```
 
-Type `exit` to exit the nginx container.
+Type `exit` to exit the nginx container in T2.
 
-> `exit`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
 
 Switch to terminal `T1`.  Stop the Nginx web server with `Ctrl+C`.
+
+<br/>

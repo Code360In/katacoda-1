@@ -9,7 +9,7 @@ Sample output:
 
 From the above picture, we have a couple of basics to understand. 
 - The $ (**_prompt_**) is there to tell you the terminal is ready to accept a command. 
-- Output will directly show in the terminal after executed commands.
+- Output will directly show on the next line after executed commands.
 
 <br/>
 

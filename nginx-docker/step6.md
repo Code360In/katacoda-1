@@ -6,7 +6,7 @@ The default webpage at the root folder is located at `/usr/share/nginx/html/inde
 - You may execute `cat /usr/share/nginx/html` in the nginx container to show the HTML source of the default webpage. 
 - You can also show the content of the file in the Docker host by executing the command `docker execute  [nginx's container ID] cat /usr/share/nginx/html/index.html`.
 
-Execute the  command 
+Execute the command:
 `cat /usr/share/nginx/html/index.html` in the container `c0` to view the source code of the `index.html` file.
 
 > `docker exec -it c0 cat /usr/share/nginx/html/index.html`{{execute T2}}
@@ -31,7 +31,7 @@ The `docker cp` commands can be used to copy files to/from the container.
 - To copy files from the Docker host to the container, execute `docker cp [source file] [container ID]:[destination path]`.
 - E.g. To copy the customized `index.html` from the Docker host into the container, we may execute  `docker cp index.html [nginx container ID]:/usr/share/nginx/html`.
 
-Execute the following command:
+Execute the following command in terminal T2:
 
 > `docker cp index.html c0:/usr/share/nginx/html`{{execute T2}}
 

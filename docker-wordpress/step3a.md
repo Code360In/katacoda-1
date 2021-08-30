@@ -18,7 +18,7 @@ Execute `printenv`{{execute}} to examine the environment variable.
 
 You will find the various environment variables (`WORDPRESS_DB_HOST`, `WORDPRESS_DB_USER`,  `WORDPRESS_DB_PASSWORD`) you have passed to the docker container. These environment variables are used by WordPress application to connect to the MySQL database.
 
-Exit the bash:
+Exit the bash shell in the wordpress container:
 > `exit`{{execute}}
 
 <br/>

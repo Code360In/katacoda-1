@@ -35,7 +35,7 @@ TO check the output of the ping command inside the container, execute:
 
 > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls -l /data </span>
 > 
-> > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> cat /data/ping.txt </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> cat /data/ping.txt </span>
 
 
 You will get output similar to the following.

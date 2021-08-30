@@ -2,7 +2,7 @@
 
 The following pull command fetches the Debian official image from the Docker Hub and saves it to our system. 
 
-Try: `docker pull debian:7`{{execute}}
+Try: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker pull debian:7 </span>
 
 **Note:**
 - debian: The name of the Docker image that you want to run
@@ -12,32 +12,30 @@ More information about the Docker image is available at https://hub.docker.com/_
 
 
 Run the Debian docker image:	<br/>
-`docker run debian`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run debian </span>
 
 The container will stop immediately.
 
 Show the running containers:
-`docker ps`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps </span>
 
-
-Show all containers (including stopped one):<br/>
-`docker ps -a`{{execute}}
-
+Show all containers (including stopped one):
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
 
 You may append a command to execute when the container starts:
 
-`docker run debian echo "hello"`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run debian echo "hello" </span>
 
 # Running docker container interactively
 
 Connect container to terminal with -it option (which runs the docker container interactively):
-`docker run -it debian`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -it debian </span>
 
 In the docker container, type some commands, e.g.<br/>
 
-`ls`{{execute}}
-
-`whoami`{{execute}} 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls </span>
+> 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> whoami </span>
 
 
 # Installing FIGlet in docker containers
@@ -46,7 +44,7 @@ FIGlet is a simple command-line utility for creating ASCII text banners or large
 
 Try to run figlet in our container.
 
-`figlet hello`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> figlet hello </span>
 
 The program is not installed in the image.
 
@@ -54,15 +52,15 @@ The program is not installed in the image.
 
 First, updates the list of available packages and their versions.
 
-`apt update `{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> apt update </span>
 
 After that, install the `figlet` program.
 
-`apt install figlet `{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> apt install figlet </span>
 
 Execute the following command again.
 
-` figlet hello`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> figlet hello </span>
 
  Sample output:
 
@@ -77,11 +75,11 @@ Execute the following command again.
 
 Exit the docker container.
 
-`exit`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
 
 Check the container status.
 
-`docker ps -a`
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
 
 Note that the two containers we executed before are now in the "Stopped" state.
 
@@ -90,13 +88,13 @@ Note that the two containers we executed before are now in the "Stopped" state.
 
 Run the Debian docker image again:
 
-`docker run debian`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run debian </span>
 
 Is the `figlet` program installed in the new container? Why?
 
 Exit the docker container.
 
-`exit`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
 
 If we need something installed in our container, we should build a custom Docker image. We can 
 1) Can use  the `docker commit`  to commit a container's file changes or settings into a new image. 
@@ -106,15 +104,15 @@ In this exercise, we will adopt approach 1.
 
 Execute in the terminal (replace [container ID] with the ID of the container with figlet installed):
 
-`docker commit [Container ID]] debian-figlet`{{copy}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker commit [Container ID]] debian-figlet </span>
 
 Verify that a new image nanmed `debian-figlet` is created.
 
-`docker image ls`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker image ls </span>
 
 Execute the followng command to check if `figlet` is installed in the image.
 
-`docker run debian-figlet figlet Hello PolyU`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run debian-figlet figlet Hello PolyU </span>
 
 Sample Output:
 
@@ -127,8 +125,4 @@ Sample Output:
                                      |___/       
 ```
 
-
-
-
-
-
+<br/>

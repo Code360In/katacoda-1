@@ -11,7 +11,7 @@ To handle the procedures in using a software package, we will use `apt` command 
 ##### Example:
 1. Update list of available packages: `apt update`{{execute}}
 
-2. Install the package (here we install nginx web server): `apt install nginx`{{execute}}
+2. Install the package (here we install nginx web server). Enter <kbd> Y </kbd> when asked: `apt install nginx`{{execute}}
 
 3. Run the nginx web server: `nginx`{{execute}}
 

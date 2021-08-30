@@ -23,7 +23,7 @@ To list all the tables, execute:
 
 > `show full tables;`{{execute}}
 
-***Note***: You should first complete the installation of wordpress in the previous step to view the wordpress table.
+***Note***: You should first complete the installation of wordpress in the previous step to view the wordpress tables.
 
 To describe and get data from the `wp_posts` table, execute:
 

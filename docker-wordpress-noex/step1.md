@@ -5,11 +5,12 @@ We will make use of the official docker image `mysql:8` in the Docker hub.
 
 Create a docker network for communication between MySQL and WordPress containers.
 
-> `docker network create wordpress-network`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker network create wordpress-network </span>
 
 Startup a container `mysql` in the background (using `-d` option). 
 
-> `docker run --name mysql -d -e  MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=12345 --network=wordpress-network -v db_data:/var/lib/mysql mysql:8`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run --name mysql -d -e  MYSQL_ROOT_PASSWORD=12345 -e MYSQL_DATABASE=wordpress -e MYSQL_USER=wordpress -e MYSQL_PASSWORD=12345 --network=wordpress-network -v db_data:/var/lib/mysql mysql:8 </span>
+
 
 The `-v` options maps the container's path `/var/lib/mysql` to the persistent volume *db_data* in the docker host. Also, the following environment variables are defined:
 
@@ -20,17 +21,17 @@ The `-v` options maps the container's path `/var/lib/mysql` to the persistent vo
 
 Verify that the `mysql:8` container is running.
 
-> `docker ps`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps </span>
 
 Check the logs of the `mysql` container.
 
-> `docker logs mysql`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker logs mysql </span>
 
 Verify that the MySQL Server is started up successfully.
-
-
 
 **Exercises**: 
 * Execute the following command to understand more about the `docker run` command.
 > `docker run --help`{{execute}}
 *  Visit https://hub.docker.com/_/mysql for details about the parameters in the mysql docker image
+
+<br/>

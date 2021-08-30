@@ -2,11 +2,11 @@
 
 First, pull the WordPress official docker iamge.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker pull wordpress </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker pull wordpress </span>
 
 Start the WordPress container.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=12345 -e WORDPRESS_DB_HOST=mysql:3306 --name wordpress --network=wordpress-network -p 10080:80 -v /tmp/html/:/var/www/html -d wordpress </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=12345 -e WORDPRESS_DB_HOST=mysql:3306 --name wordpress --network=wordpress-network -p 10080:80 -v /tmp/html/:/var/www/html -d wordpress </span>
 
 When you start the WordPress image, you can adjust the configuration of the WordPress by passing one or more environment variables
 * `-e WORDPRESS_DB_HOST=mysql:3306`: Specify the hostname (`mysql`) and the port (`3306`) of the database server for wordpress to store the data.
@@ -25,11 +25,11 @@ Visit https://hub.docker.com/_/wordpress to understand more about the parameters
 
 Check that the WordPress container is running.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker ps </span>
 
 Check the logs of the WordPress container to verify that there is no error.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker logs wordpress </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker logs wordpress </span>
 
 Access your WordPress application at localhost:10080
 - In Katacoda, visit the WordPress website with the following URL: 

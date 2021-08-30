@@ -1,12 +1,12 @@
 ## Hidden file 
 
 We will create a hidden file (filename starts with dot character):
-> `echo "Hello I am a hidden file." > .hidden.txt`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> echo "Hello I am a hidden file." > .hidden.txt </span>
 
 You will not see the file when you use the `ls` command:
-> `ls`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> ls </span>
 
 Use the `-a` option of `ls` command to show all files (including the hidden files):
-> `ls -a`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> ls -a </span>
 
 <br/>

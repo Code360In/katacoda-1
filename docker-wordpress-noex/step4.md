@@ -2,8 +2,8 @@
 
 Execute:
 
-> `docker rm -f wordpress`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker rm -f wordpress </span>
+>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker rm -f mysql </span>
 
-> `docker rm -f mysql`{{execute}}
-
-
+<br/>

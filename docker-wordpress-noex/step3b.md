@@ -3,17 +3,17 @@
 
 Start a bash shell into the msyql container
 
-> `docker exec -it mysql bash`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker exec -it mysql bash </span>
 
 Login to the mysql database server using the `wordpress` account.
 
-> `mysql -u wordpress -p`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> mysql -u wordpress -p </span>
 
 Input `12345` as password.
 
 To show the databases, execute:
 
-> `show databases;`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> show databases; </span>
 
 Change to the `wordpress` database. Execute:
 

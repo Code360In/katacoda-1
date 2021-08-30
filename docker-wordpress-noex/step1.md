@@ -5,7 +5,7 @@ We will make use of the official docker image `mysql:8` in the Docker hub.
 
 Create a docker network for communication between MySQL and WordPress containers.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px;"> docker network create wordpress-network </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker network create wordpress-network </span>
 
 Startup a container `mysql` in the background (using `-d` option). 
 

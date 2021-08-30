@@ -4,7 +4,7 @@ Instead of starting up the individual containers, we may start up the WordPress 
 
 Create the file `docker-compose.yml` as follows. The configuration file will startup the WordPress and MySQL containers. The two containers can communicate through the docker network. Also, the port `80` in the WordPress application is mapped to the host port `20080`.
 
-<pre style="background-color:Black;">
+<pre style="background-color:Grey;">
 
 version: '3'
 

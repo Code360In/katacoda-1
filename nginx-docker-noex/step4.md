@@ -4,17 +4,17 @@ By default, when you create or run a container using docker create or docker run
 
 Execute the following command in terminal T1 to create a container named "c0", where the `-p` option will map the port 80 in the nginx container to the host port 20080.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run --name c0 -p 20080:80 nginx:1.21 </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run --name c0 -p 20080:80 nginx:1.21 </span>
 
 In terminal T2, check the status of the running nginx container.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker ps </span>
 
 To verify the port mapping status, check that the `PORTS` column for the nginx container is `0.0.0.0:20080->80/tcp`. 
 
 In terminal T2, visit localhost at port 20080 to access the default website in Nginx.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> curl localhost:20080 </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> curl localhost:20080 </span>
 
 Sample output:
 

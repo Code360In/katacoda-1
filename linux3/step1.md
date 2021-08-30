@@ -13,3 +13,9 @@ The terminal will select the fifth byte. Note that the `ü` character takes 2 by
 > `echo 'drüberspringen' | cut -b 5`{{execute}}
 
 <br/>
+
+## Unique lines
+
+The `uniq` command is to filter out the repeated lines in a file:
+
+<br/>

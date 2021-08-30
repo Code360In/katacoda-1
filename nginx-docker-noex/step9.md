@@ -8,6 +8,6 @@ docker rm –f [container_id1] [container_id2], ...
 
 Execute:
 
-> `docker rm -f ws1 ws2 ws3`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker rm -f ws1 ws2 ws3 </span>
 
-
+<br/>

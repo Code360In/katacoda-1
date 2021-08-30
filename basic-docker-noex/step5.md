@@ -12,7 +12,5 @@ Type some commands, e.g.<br/>
 >
 > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> whoami </span>
 
-Exit the bash shell in the docker container:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
 
 <br/>

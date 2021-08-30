@@ -22,7 +22,7 @@ Check the status of the container, execute:
 
 We can run a command in a running container by using the `docker exec` command. To launch an interactive bash shell (using the `-it` option) into the container c2, execute:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docer exec -it c2 sh </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker exec -it c2 sh </span>
 
 Check the running processes and locate the process with Process ID (PID) 1 within the container. Execute:
 

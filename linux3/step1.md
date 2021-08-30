@@ -16,6 +16,20 @@ The terminal will select the fifth byte. Note that the `ü` character takes 2 by
 
 ## Unique lines
 
+First we create a file with 3 lines, which two lines are the same:
+> ```
+> echo "123" >> text1.txt
+> echo "123" >> text1.txt
+> echo "321" >> text1.txt
+> ```{{execute}}
+> 
+> `ls`{{execute}}
+>
+> `cat text1.txt`{{execute}}
+
 The `uniq` command is to filter out the repeated lines in a file:
+> `uniq text1.txt`{{execute}}
+
+**Exercise**: Find the number of lines, words and characters where only unique lines are considered.
 
 <br/>

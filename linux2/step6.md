@@ -22,7 +22,7 @@ To navigate the file, you can:
 - Prees up and down arrow to scroll up and down
 - Press <kbd> Q </kbd> to exit
 
-It is important to use `--help` to understand the command options. For example, to know about the options of `-l`, we can do like this:
+It is important to use `--help` to understand the command options. For example, to know about the options of `ls`, we can do like this:
 > `ls  --help | less`{{execute}}
 
 The `uniq` command is to filter out the repeated lines in a file:

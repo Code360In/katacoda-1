@@ -5,16 +5,17 @@ Bind mounts have limited functionality compared to Docker volumes. When you use 
 
 First, check  the commands available in the Docker volume API. Execute
 
-> `docker volume --help`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker volume --help </span>
 
 
 We will start with the create command, and create a volume named **web_folder**.
 
-> `docker volume create web_folder`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker volume create web_folder </span>
 
 Check that the volume is created.
 
-> `docker volume ls`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker volume ls </span>
+
 
 Sample output:
 
@@ -25,7 +26,7 @@ local               web_folder
 
 Inspect the details about the created Docker volume.
 
-> `docker volume inspect web_folder`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker volume inspect web_folder </span>
 
 ```
 [
@@ -45,19 +46,19 @@ The **Mountpoint** attributes shows the path on the Docker host where the volume
 
 List the files in the container's mountpoint. 
 
-> `ls /var/lib/docker/volumes/web_folder/_data`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls /var/lib/docker/volumes/web_folder/_data </span>
 
 Currently, the folder should be empty.
 
 Nginx  is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache. We will run an Nginx image and mount the **web_folder** volume from the host onto **/usr/share/nginx/html** folder within the container. 
 The folder `/usr/share/nginx/html` is the default folder served by the nginx container.
 
-> `docker container run --name www -d -p 8080:80 -v web_folder:/usr/share/nginx/html nginx`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container run --name www -d -p 8080:80 -v web_folder:/usr/share/nginx/html nginx </span>
 
 We have used the -p option to map the nginx default port (80) in the container to a port on the host (8080). We can verify that the nginx web server at `localhost:8080` by executing the following command:
 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> curl localhost:8080 </span>
 
-> `curl localhost:8080`{{execute}}
 
 Sample output:
 
@@ -92,8 +93,9 @@ Commercial support is available at
 From the host,  let's have a look at the content of the volume by listing 
 the files in the container's mountpoint again.
 
-> `ls /var/lib/docker/volumes/web_folder/_data`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls /var/lib/docker/volumes/web_folder/_data </span>
 
 **Question:** 
 What file(s) is/are stored in the folder?
 
+<br/>

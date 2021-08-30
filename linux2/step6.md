@@ -17,7 +17,10 @@ To send the output of one program (former part) to another program (latter part)
 The `less` command is to read the content of a text file page by page. We will load a Bash shell script (**.bashrc**), which is a startup script for running a Linux terminal:
 > `cat ~/.bashrc | less`{{execute}}
 
-After the command is executed, you can press <kbd> SPACE </kbd> to move on next page, and exit by pressing <kbd> Q </kbd>.
+To navigate the file, you can:
+- Press <kbd> SPACE </kbd> to move on next page
+- Prees up and down arrow to scroll up and down
+- Press <kbd> Q </kbd> to exit
 
 The `uniq` command is to filter out the repeated lines in a file:
 > `uniq text3.txt`{{execute}}

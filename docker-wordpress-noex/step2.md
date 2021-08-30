@@ -2,11 +2,12 @@
 
 First, pull the WordPress official docker iamge.
 
-> `docker pull wordpress`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker pull wordpress </span>
 
 Start the WordPress container.
 
-> `docker run -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=12345 -e WORDPRESS_DB_HOST=mysql:3306 --name wordpress --network=wordpress-network -p 10080:80 -v /tmp/html/:/var/www/html -d wordpress`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -e WORDPRESS_DB_USER=wordpress -e WORDPRESS_DB_PASSWORD=12345 -e WORDPRESS_DB_HOST=mysql:3306 --name wordpress --network=wordpress-network -p 10080:80 -v /tmp/html/:/var/www/html -d wordpress </span>
+
 
 When you start the WordPress image, you can adjust the configuration of the WordPress by passing one or more environment variables
 * `-e WORDPRESS_DB_HOST=mysql:3306`: Specify the hostname (`mysql`) and the port (`3306`) of the database server for wordpress to store the data.
@@ -25,11 +26,11 @@ Visit https://hub.docker.com/_/wordpress to understand more about the parameters
 
 Check that the WordPress container is running.
 
-> `docker ps`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps </span>
 
 Check the logs of the WordPress container to verify that there is no error.
 
-> `docker logs wordpress`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker logs wordpress </span>
 
 Access your WordPress application at localhost:10080
 - In Katacoda, visit the WordPress website with the following URL: 
@@ -42,3 +43,5 @@ Follow the setup instruction after clicking the above link. After selecting the 
 Click your sitename on the top left and click `visit site` to view the WordPress website.
 
 ![Wordpress website](./assets/ws.jpg)
+
+<br/>

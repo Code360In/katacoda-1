@@ -4,27 +4,27 @@ The "Busybox" image combines tiny versions of many common UNIX utilities into a 
 
 We can first pull the image from Docker hub.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker pull busybox </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker pull busybox </span>
 
 Check that the image is pulled successfully by using the `docker image ls` command.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker image ls </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker image ls </span>
 
 Next, we run the image as a container.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run busybox </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run busybox </span>
 
 You will not see any output as the container has immediately exited after execution. 
 
 You may append a command to `docker run` to execute when the container starts:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run busybox ls -l </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run busybox ls -l </span>
 
 Docker will execute the command `ls -l` inside the container for which you saw the directory listing.
 
 Verify the container status by executing the following command:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker ps -a </span>
 
 The name and ID of the various containers that you have launched and stopped (exited) will be shown. You may clean up the containers by using the container name/ID. 
 - The command `docker rm [container name/ID]` will remove and clean up the stopped containers.

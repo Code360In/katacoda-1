@@ -39,7 +39,7 @@ Wait for the file to be saved.
 
 Execute the following command to start up the containers.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker-compose up </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker-compose up </span>
 
 
 After the containers have been started up and initialized, you may access your WordPress application at `localhost:20080`.

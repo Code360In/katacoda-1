@@ -8,7 +8,7 @@ Execute:
 
 > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -it busybox </span>
 
-Execute the command `hostname`{{execute T1}} in the busybox container. The container ID of your container will be used as the hostname of your container.
+Execute the command <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> hostname </span> in the busybox container. The container ID of your container will be used as the hostname of your container.
 
 Sample output:
 ```

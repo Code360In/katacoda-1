@@ -6,7 +6,7 @@ First,  run an interactive `sh` shell within an Alpine Linux container named c1.
 
 Inside the container, we will create a file `hello.txt` in the folder. Execute:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> echo "Hello World!"> hello.txt </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> echo "Hello World!" > hello.txt </span>
 
 Check that the file `hello.txt` is created. Execute:
 

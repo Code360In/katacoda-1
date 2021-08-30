@@ -25,9 +25,4 @@ To navigate the file, you can:
 It is important to use `--help` to understand the command options. For example, to know about the options of `ls`, we can do like this:
 > `ls  --help | less`{{execute}}
 
-The `uniq` command is to filter out the repeated lines in a file:
-> `uniq text3.txt`{{execute}}
-
-**Exercise**: Find the number of lines, words and characters where only unique lines are considered.
-
 <br/>

@@ -2,7 +2,7 @@
 
 In terminal T2, execute the following command in the docker host to access the `/test` page (which does not exist):
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> curl localhost:20080/test </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> curl localhost:20080/test </span>
 
 What happens if you access a non-existing page?
 

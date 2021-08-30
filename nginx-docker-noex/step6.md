@@ -6,10 +6,11 @@ The default webpage at the root folder is located at `/usr/share/nginx/html/inde
 - You may execute `cat /usr/share/nginx/html` in the nginx container to show the HTML source of the default webpage. 
 - You can also show the content of the file in the Docker host by executing the command `docker execute  [nginx's container ID] cat /usr/share/nginx/html/index.html`.
 
-Execute the  command 
+Execute the command:
+
 `cat /usr/share/nginx/html/index.html` in the container `c0` to view the source code of the `index.html` file.
 
-> `docker exec -it c0 cat /usr/share/nginx/html/index.html`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker exec -it c0 cat /usr/share/nginx/html/index.html </span>
 
 We will customize the webpage shown when Nginx web server is accessed.
 
@@ -31,14 +32,14 @@ The `docker cp` commands can be used to copy files to/from the container.
 - To copy files from the Docker host to the container, execute `docker cp [source file] [container ID]:[destination path]`.
 - E.g. To copy the customized `index.html` from the Docker host into the container, we may execute  `docker cp index.html [nginx container ID]:/usr/share/nginx/html`.
 
-Execute the following command:
+Execute the following command in terminal T2:
 
-> `docker cp index.html c0:/usr/share/nginx/html`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker cp index.html c0:/usr/share/nginx/html </span>
 
 
 Verify that the default webpage is updated. Execute:
 
-> `curl localhost:20080`{{execute T2}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> curl localhost:20080 </span>
 
 Visit `http://localhost:20080` in your browser (if you are running the lab in your own computer).
 
@@ -53,7 +54,8 @@ Switch to Terminal 1, stop the Nginx server with Ctrl+C.
 
 Use the following command to clean up all stopped containers.
 
-> `docker container prune`{{execute T1}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container prune </span>
 
 Click 'Y' to confirm.
 
+<br/>

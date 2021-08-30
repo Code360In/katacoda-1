@@ -2,7 +2,7 @@
 
 Build the docker image by executing
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker build -t myimage . </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker build -t myimage . </span>
 
 * `-t` specifes the name of the target image
 
@@ -68,6 +68,6 @@ A Docker image is built up from a series of layers. Each layer represents an ins
 
 Check that the image is created. Execute:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker image ls </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker image ls </span>
 
 <br/>

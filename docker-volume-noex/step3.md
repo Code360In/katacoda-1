@@ -5,7 +5,8 @@ Bind mount allows you to mount a file or directory on the host machine into a co
 
 The `ping` command can be used to check the network connectivity to a remote server. Let's create a container from the busybox image which will continually ping the Google's DNS Server (IP: 8.8.8.8) and write the result into a file. Execute:
 
-> `docker container run --name c2 -d -v /tmp/data:/data busybox:latest sh -c 'ping 8.8.8.8 > /data/ping.txt'`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container run --name c2 -d -v /tmp/data:/data busybox:latest sh -c 'ping 8.8.8.8 > /data/ping.txt' </span>
+
 
 About the docker run options:
 * **busybox:latest**: We will run the docker image busybox with the tag `latest`.
@@ -16,25 +17,26 @@ container.
 
 Check the status of the container, execute:
 
-> `docker ps -a`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
 
 
 We can run a command in a running container by using the `docker exec` command. To launch an interactive bash shell (using the `-it` option) into the container c2, execute:
 
-> `docker exec -it c2 sh`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docer exec -it c2 sh </span>
 
 Check the running processes and locate the process with Process ID (PID) 1 within the container. Execute:
 
-> `ps`{{execute}}.
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ps </span>
 
 The container will keep running as the run command will continuously ping 8.8.8.8 (and so the PID 1 process remains active). 
 
 
 TO check the output of the ping command inside the container, execute:
 
->  * `ls -l /data`{{execute}}
->
->  * `cat /data/ping.txt`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls -l /data </span>
+> 
+> > <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> cat /data/ping.txt </span>
+
 
 You will get output similar to the following.
 
@@ -51,19 +53,19 @@ PING 8.8.8.8 (8.8.8.8): 56 data bytes
 
 Exit the container. Execute:
 
-> `exit`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
 
 Since we have bind-mounted the host's folder into the container folder, you should be able to find `ping.txt` in the host's filesystem.
 In the host machine, locate the file `ping.txt` under `/tmp/data`. Execute
 
-> * `ls -l /tmp/data`{{execute}}
->
-> * `cat /tmp/data/ping.txt`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls -l /tmp/data </span>
+> 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> cat /tmp/data/ping.txt </span>
 
 
 You can inspect the details about the mounted paths for a container by examining the **Mounts** attribute in the `docker container inspect` command. Execute
 
-> `docker container inspect -f "{{json .Mounts}}" c2 | jq`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container inspect -f "{{json .Mounts}}" c2 | jq </span>
 
 You will get output similar to the following.
 
@@ -80,3 +82,4 @@ You will get output similar to the following.
 ]
 ```
 
+<br/>

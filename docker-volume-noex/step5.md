@@ -2,9 +2,10 @@
 
 Stop and remove  the various containers before proceeding to the  next step.
 
-> `docker container rm -f c2`{{execute}}
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container rm -f c2 </span>
+> 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container rm -f c3 </span>
+> 
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker container rm -f c4 </span>
 
-> `docker container rm -f c3`{{execute}}
-
-> `docker container rm -f c4`{{execute}}
-
+<br/>

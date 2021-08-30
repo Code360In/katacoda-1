@@ -2,17 +2,17 @@
 
 In terminal T1, pull the Nginx image from Docker hub. Execute:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker pull nginx </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker pull nginx </span>
 
 By default, the command `docker pull nginx` will pull the  image `nginx:latest` where `latest` is the tag of the image. We can pull the Nginx image with specified version (e.g. Version 1.2) by using the image `nginx:1.21`.
 
 Execute in the Docker host's terminal T1:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker pull nginx:1.21 </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker pull nginx:1.21 </span>
 
 Verify that the images are downloaded. Execute:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker image ls </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker image ls </span>
 
 Sample output:
 ```
@@ -22,7 +22,7 @@ nginx      1.21    08b152afcfae    11 days ago     133MB
 
 Start an Nginx container. Execute:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run nginx:1.21 </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run nginx:1.21 </span>
 
 The nginx server will start up. Sample output:
 

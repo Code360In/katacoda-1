@@ -2,7 +2,7 @@
 
 The following pull command fetches the Debian official image from the Docker Hub and saves it to our system. 
 
-Try: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker pull debian:7 </span>
+Try: <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker pull debian:7 </span>
 
 **Note:**
 - debian: The name of the Docker image that you want to run
@@ -12,30 +12,30 @@ More information about the Docker image is available at https://hub.docker.com/_
 
 
 Run the Debian docker image:	<br/>
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run debian </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run debian </span>
 
 The container will stop immediately.
 
 Show the running containers:
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker ps </span>
 
 Show all containers (including stopped one):
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker ps -a </span>
 
 You may append a command to execute when the container starts:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run debian echo "hello" </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run debian echo "hello" </span>
 
 # Running docker container interactively
 
 Connect container to terminal with -it option (which runs the docker container interactively):
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run -it debian </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run -it debian </span>
 
 In the docker container, type some commands, e.g.<br/>
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> ls </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> ls </span>
 > 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> whoami </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> whoami </span>
 
 
 # Installing FIGlet in docker containers
@@ -44,7 +44,7 @@ FIGlet is a simple command-line utility for creating ASCII text banners or large
 
 Try to run figlet in our container.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> figlet hello </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> figlet hello </span>
 
 The program is not installed in the image.
 
@@ -52,15 +52,15 @@ The program is not installed in the image.
 
 First, updates the list of available packages and their versions.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> apt update </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> apt update </span>
 
 After that, install the `figlet` program.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> apt install figlet </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> apt install figlet </span>
 
 Execute the following command again.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> figlet hello </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> figlet hello </span>
 
  Sample output:
 
@@ -75,11 +75,11 @@ Execute the following command again.
 
 Exit the docker container.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> exit </span>
 
 Check the container status.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker ps -a </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker ps -a </span>
 
 Note that the two containers we executed before are now in the "Stopped" state.
 
@@ -88,13 +88,13 @@ Note that the two containers we executed before are now in the "Stopped" state.
 
 Run the Debian docker image again:
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run debian </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run debian </span>
 
 Is the `figlet` program installed in the new container? Why?
 
 Exit the docker container.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> exit </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> exit </span>
 
 If we need something installed in our container, we should build a custom Docker image. We can 
 1) Can use  the `docker commit`  to commit a container's file changes or settings into a new image. 
@@ -104,15 +104,15 @@ In this exercise, we will adopt approach 1.
 
 Execute in the terminal (replace [container ID] with the ID of the container with figlet installed):
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker commit [Container ID]] debian-figlet </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker commit [Container ID]] debian-figlet </span>
 
 Verify that a new image nanmed `debian-figlet` is created.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker image ls </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker image ls </span>
 
 Execute the followng command to check if `figlet` is installed in the image.
 
-> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%;"> docker run debian-figlet figlet Hello PolyU </span>
+> <span align="left" style="color:#FFF;background:#555;font:Courier New; font-size: 90%; padding-left: 5px; padding-right: 5px; padding-top: 5px; padding-bottom: 5px;"> docker run debian-figlet figlet Hello PolyU </span>
 
 Sample Output:
 

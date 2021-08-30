@@ -9,6 +9,10 @@ First, start a container named "c1" from the official Ubuntu Linux image using t
 Type some commands, e.g.<br/>
 
 > `ls`{{execute}}
-
+>
 > `whoami`{{execute}} 
 
+Exit the bash shell in the wordpress container:
+> `exit`{{execute}} 
+
+<br/>

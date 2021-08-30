@@ -25,7 +25,7 @@ To list all the tables, execute:
 
 To describe and get data from the `wp_posts` table, execute:
 
-> `describe wp_posts`{{execute}}
+> `describe wp_posts;`{{execute}}
 
 > `select ID, post_title, post_author, post_date from wp_posts;`{{execute}}
 

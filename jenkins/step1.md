@@ -1,10 +1,14 @@
-# Preparation
+## Preparation
 
-## Download project files
+<br/>
+
+# Download project files
 
 Download **myflaskapp.zip** from blackboard and unzip it to a local folder.
 
-## Create our Git repository
+<br/>
+
+# Create our Git repository
 
 Create a new public repository at https://github.com/.
 

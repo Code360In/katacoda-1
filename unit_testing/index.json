@@ -1,0 +1,22 @@
+{
+  "title": "Python Unit Testing",
+  "description": "Learning Pytest for unit testing.",
+  "difficulty": "Beginner",
+  "time": "30 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

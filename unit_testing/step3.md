@@ -15,7 +15,11 @@ In general, you can open the generated excel document in your root folder. Check
 
 ![Picture 6](./assets/pic6.png)
 
+<br/>
+
 ------------------------------------------
+
+<br/>
 
 - CSV format
 
@@ -31,7 +35,11 @@ Check whether the file is created:
 View the content by the `cat` command:
 > `cat testsCSV.csv`{{execute}}
 
+<br/>
+
 ------------------------------------------
+
+<br/>
 
 - XML Output
 
@@ -44,7 +52,11 @@ Check whether the file is created:
 View the content by the `cat` command:
 > `cat testsXML.xml`{{execute}}
 
+<br/>
+
 ------------------------------------------
+
+<br/>
 
 In this example, **pytest** is running without specifying the test script. It will scan all the test scripts (e.g. python scripts with the name ending with \_test)  in the folder and execute all the test methods.
 

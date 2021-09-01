@@ -41,7 +41,7 @@ Modify the **add** function as follows to introduce a bug.
 ```
 def add(x,y):
     return x+y+1
-```{{copy))
+```{{copy}}
 
 
 Execute the tests:

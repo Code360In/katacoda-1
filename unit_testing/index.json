@@ -13,6 +13,9 @@
       "text": "intro.md"
     }
   },
+  "files": [
+         "calc_script.py"
+    ],
   "environment": {
     "uilayout": "terminal"
   },

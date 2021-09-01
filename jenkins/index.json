@@ -16,9 +16,9 @@
   },
   "environment": {
     "uilayout": "terminal",
-	"uisettings": "bash",
-	"exclusionPatterns": ["*verify*"],
-	"hideHiddenFiles": true
+    "uisettings": "bash",
+    "exclusionPatterns": ["*verify*"],
+    "hideHiddenFiles": true
   },
   "backend": {
     "imageid": "ubuntu:1804"

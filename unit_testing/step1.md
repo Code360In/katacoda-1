@@ -25,7 +25,7 @@ def test_sub():
 </pre>
 
 Execute the tests:
-> `pytest calc_test.py`{{execute}}
+> `pytest calc_script.py`{{execute}}
 
 Sample output:
 

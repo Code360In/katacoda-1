@@ -16,7 +16,6 @@ def add(x,y):
 def sub(x,y):
     return x-y
 
-
 def test_add():
     assert add(3,4)==7
 
@@ -45,7 +44,7 @@ def add(x,y):
 </pre>
 
 Execute the tests:
-> `pytest -v calc_test.py`{{execute}}
+> `pytest -v calc_script.py`{{execute}}
 
 ![Picture 3](./assets/pic3.png)
 

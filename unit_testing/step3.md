@@ -10,14 +10,24 @@ Run tests and report the result in excel format:
 
 ![Picture 5](./assets/pic5.png)
 
-In general, you can open the generated excel document:
+In general, you can open the generated excel document in your root folder:
 
 ![Picture 6](./assets/pic6.png)
 
-In Katacoda, we can scan the excel file by installing `pytest-csv`:
+------------------------------------------
+
+- CSV format
+
+Except excel format, we can export to csv format by installing `pytest-csv`:
 > `pip install pytest-csv`{{execute}}
 
+Run tests and report the result in csv format:
+> `py.test -v --csv tests.csv`{{execute}}
 
+View the content by the `cat` command:
+> `cat tests.csv`{{execute}}
+
+------------------------------------------
 
 - XML Output
 

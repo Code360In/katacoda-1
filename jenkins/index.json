@@ -13,11 +13,6 @@
     "intro": {
       "text": "intro.md"
     },
-	"assets": {
-        "host01": [
-            {"file": "input_name", "target": "/usr/local/bin/", "chmod": "+x"}
-        ]
-    }
   },
   "environment": {
     "uilayout": "terminal",

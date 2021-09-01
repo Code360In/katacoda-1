@@ -10,7 +10,8 @@ Run tests and report the result in excel format:
 
 ![Picture 5](./assets/pic5.png)
 
-In general, you can open the generated excel document in your root folder:
+In general, you can open the generated excel document in your root folder. Check whether the file is created:
+> `ls`{{execute}}
 
 ![Picture 6](./assets/pic6.png)
 
@@ -23,6 +24,9 @@ Except excel format, we can export to csv format by installing `pytest-csv`:
 
 Run tests and report the result in csv format:
 > `py.test -v --csv testsCSV.csv`{{execute}}
+
+Check whether the file is created:
+> `ls`{{execute}}
 
 View the content by the `cat` command:
 > `cat tests.csv`{{execute}}

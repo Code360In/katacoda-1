@@ -38,6 +38,14 @@ View the content by the `cat` command:
 To output the test results in XML format:
 > `pytest  --junit-xml testsXML.xml`{{execute}}
 
+Check whether the file is created:
+> `ls`{{execute}}
+
+View the content by the `cat` command:
+> `cat testsXML.xml`{{execute}}
+
+------------------------------------------
+
 In this example, **pytest** is running without specifying the test script. It will scan all the test scripts (e.g. python scripts with the name ending with \_test)  in the folder and execute all the test methods.
 
 <br/>

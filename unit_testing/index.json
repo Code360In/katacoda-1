@@ -14,7 +14,7 @@
     }
   },
   "files": [
-         "calc_script.py"
+         "calc_script.py", "test_db.py"
     ],
   "environment": {
     "uilayout": "editor-terminal"

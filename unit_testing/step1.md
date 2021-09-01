@@ -5,7 +5,7 @@ Pytest is a testing framework which allows us to write automated test codes usin
 Install pytest in command prompt:
 > `pip install pytest`{{execute}}
 
-Create a script **calc_script.py** as follow:
+Create a script **calc_script.py** as follow. Wait until the file is saved:
 
 <pre class="file" data-filename="calc_script.py" data-target="replace">
 import pytest

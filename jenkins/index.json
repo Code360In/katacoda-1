@@ -1,31 +1,31 @@
 {
   "title": "Jenkins",
-  "description": "Learning Jenkins.",
+  "description": "Learning Jenkins",
   "difficulty": "Beginner",
-  "time": "30 miniutes",
+  "time": "20 minutes",
   "details": {
     "steps": [
       {
+
         "text": "step1.md"
-      },
-      {
-        "text": "step2.md"
-      },
-      {
-        "text": "step3.md"
-      },
-      {
-        "text": "step4.md"
       }
     ],
     "intro": {
       "text": "intro.md"
+    },
+	"assets": {
+        "host01": [
+            {"file": "input_name", "target": "/usr/local/bin/", "chmod": "+x"}
+        ]
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+	"uisettings": "bash",
+	"exclusionPatterns": ["*verify*"],
+	"hideHiddenFiles": true
   },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "ubuntu:1804"
   }
 }

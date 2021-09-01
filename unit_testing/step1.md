@@ -36,7 +36,7 @@ The `-v` option produces more detailed (verbose) output:
 
 ![Picture 2](./assets/pic2.png)
 
-Modify the add function as follows to introduce a bug.
+Modify the **add** function as follows to introduce a bug.
 
 ```
 def add(x,y):

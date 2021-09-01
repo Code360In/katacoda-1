@@ -1,0 +1,31 @@
+{
+  "title": "Jenkins",
+  "description": "Learning Jenkins.",
+  "difficulty": "Beginner",
+  "time": "30 miniutes",
+  "details": {
+    "steps": [
+      {
+        "text": "step1.md"
+      },
+      {
+        "text": "step2.md"
+      },
+      {
+        "text": "step3.md"
+      },
+      {
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "nodejs:12"
+  }
+}

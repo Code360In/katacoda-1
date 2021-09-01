@@ -1,14 +1,14 @@
-## Preparation
+<h1> Preparation </h1>
 
 <br/>
 
-# Download project files
+<h2> Download project files </h2>
 
 Download **myflaskapp.zip** from blackboard and unzip it to a local folder.
 
 <br/>
 
-# Create our Git repository
+<h2> Create our Git repository </h2>
 
 Create a new public repository at https://github.com/.
 

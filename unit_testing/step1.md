@@ -11,7 +11,7 @@ Create a script **calc_script.py** as follow. Wait until the file is saved:
 import pytest
 
 def add(x,y):
-    return x+y+1
+    return x+y
 
 def sub(x,y):
     return x-y

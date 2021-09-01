@@ -1,6 +1,6 @@
 ## Output Format
 
-1. Excel Output
+- Excel Output
 
 To allow the test results to be exported to excel format, install `pytest-excel` using `pip install`:
 > `pip install pytest-excel`{{execute}}
@@ -14,7 +14,7 @@ Open the generated excel document:
 
 ![Picture 6](./assets/pic6.png)
 
-2. XML Output
+- XML Output
 
 To output the test results in XML format:
 > `pytest  --junit-xml test-reports/results.xml`{{execute}}

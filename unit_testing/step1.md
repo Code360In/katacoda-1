@@ -38,10 +38,11 @@ The `-v` option produces more detailed (verbose) output:
 
 Modify the add function as follows to introduce a bug.
 
-<pre class="file" data-filename="calc_script.py" data-target="replace">
+```
 def add(x,y):
     return x+y+1
-</pre>
+```{{copy))
+
 
 Execute the tests:
 > `pytest -v calc_script.py`{{execute}}

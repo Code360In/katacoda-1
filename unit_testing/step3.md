@@ -29,7 +29,7 @@ Check whether the file is created:
 > `ls`{{execute}}
 
 View the content by the `cat` command:
-> `cat tests.csv`{{execute}}
+> `cat testsCSV.csv`{{execute}}
 
 ------------------------------------------
 
